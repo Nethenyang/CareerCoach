@@ -1,0 +1,1040 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>简历洞察 · ResumeScope</title>
+  <style>
+    /* ═══════════════════════════════════════════════════════════════════
+       TOKENS — Neutral Modern + editorial/tech blend
+       Every color lives here. No raw hex anywhere else.
+       ═══════════════════════════════════════════════════════════════ */
+    :root {
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --surface-warm: var(--surface);
+      --fg: #111111;
+      --fg-2: var(--fg);
+      --muted: #6b6b6b;
+      --meta: var(--muted);
+      --border: #e5e5e5;
+      --border-soft: var(--border);
+      --accent: #2f6feb;
+      --accent-on: #ffffff;
+      --accent-hover: color-mix(in oklab, var(--accent), black 8%);
+      --accent-active: color-mix(in oklab, var(--accent), black 14%);
+      --success: #17a34a;
+      --warn: #eab308;
+      --danger: #dc2626;
+
+      --font-display: 'Iowan Old Style', 'Charter', Georgia, 'Times New Roman', serif;
+      --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      --font-mono: ui-monospace, 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+
+      --text-xs: 12px; --text-sm: 14px; --text-base: 16px;
+      --text-lg: 20px; --text-xl: 24px; --text-2xl: 32px;
+      --text-3xl: 48px; --text-4xl: 64px;
+      --leading-body: 1.5; --leading-tight: 1.2;
+      --tracking-display: -0.01em;
+
+      --space-1: 4px; --space-2: 8px; --space-3: 12px;
+      --space-4: 16px; --space-5: 20px; --space-6: 24px;
+      --space-8: 32px; --space-12: 48px; --space-20: 80px;
+
+      --radius-sm: 8px; --radius-md: 12px; --radius-lg: 16px; --radius-pill: 9999px;
+
+      --elev-flat: none;
+      --elev-ring: 0 0 0 1px var(--border);
+      --elev-raised: 0 2px 8px color-mix(in oklab, var(--fg), transparent 92%);
+
+      --focus-ring: 0 0 0 3px color-mix(in oklab, var(--accent), transparent 70%);
+
+      --motion-fast: 150ms; --motion-base: 200ms;
+      --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+
+      --container-max: 1200px;
+      --container-gutter-desktop: 24px;
+
+      --fs-h1: clamp(44px, 6vw, 76px);
+      --fs-h2: clamp(32px, 4vw, 48px);
+      --fs-h3: 22px;
+      --fs-lead: 19px;
+      --fs-body: 16px;
+      --fs-meta: 13px;
+
+      --gap-xs: 8px; --gap-sm: 12px; --gap-md: 20px;
+      --gap-lg: 32px; --gap-xl: 56px; --gap-2xl: 96px;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       RESET + BASE
+       ═══════════════════════════════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+    body {
+      margin: 0; background: var(--bg); color: var(--fg);
+      font-family: var(--font-body); font-size: var(--fs-body);
+      line-height: 1.55; text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    img, svg { display: block; max-width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; cursor: pointer; }
+    p { text-wrap: pretty; }
+    h1, h2, h3, h4 { text-wrap: balance; }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       LAYOUT PRIMITIVES (from seed)
+       ═══════════════════════════════════════════════════════════════ */
+    .container { max-width: var(--container-max); margin-inline: auto; padding-inline: var(--container-gutter-desktop); }
+    .stack { display: flex; flex-direction: column; }
+    .stack > * + * { margin-top: var(--gap-md); }
+    .row { display: flex; align-items: center; gap: var(--gap-md); }
+    .row-between { display: flex; align-items: center; justify-content: space-between; gap: var(--gap-md); }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--gap-lg); }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap-lg); }
+    .grid-1-2 { display: grid; grid-template-columns: 1fr 2fr; gap: var(--gap-xl); align-items: start; }
+    @media (max-width: 920px) {
+      .grid-2, .grid-3, .grid-1-2 { grid-template-columns: 1fr; }
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       TYPE (from seed, editorial+tech blend)
+       ═══════════════════════════════════════════════════════════════ */
+    .h1, h1 { font-family: var(--font-display); font-size: var(--fs-h1); line-height: 1.04; letter-spacing: -0.02em; margin: 0; }
+    .h2, h2 { font-family: var(--font-display); font-size: var(--fs-h2); line-height: 1.1; letter-spacing: -0.015em; margin: 0; }
+    .h3, h3 { font-size: var(--fs-h3); font-weight: 600; line-height: 1.3; letter-spacing: -0.005em; margin: 0; }
+    .lead { font-size: var(--fs-lead); line-height: 1.55; color: var(--muted); max-width: 60ch; margin: 0; }
+    .eyebrow {
+      font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--accent); margin: 0 0 var(--gap-md);
+    }
+    .meta { font-family: var(--font-mono); font-size: var(--fs-meta); color: var(--muted); }
+    .num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       BUTTONS (from seed)
+       ═══════════════════════════════════════════════════════════════ */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 11px 20px; border-radius: var(--radius-sm);
+      border: 1px solid transparent; font-size: 15px; font-weight: 500;
+      letter-spacing: -0.005em;
+      transition: transform 0.05s ease, background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .btn:active { transform: translateY(1px); }
+    .btn-primary { background: var(--accent); color: var(--accent-on); border-color: var(--accent); }
+    .btn-primary:hover { background: var(--accent-hover); }
+    .btn-secondary { background: transparent; color: var(--fg); border-color: var(--border); }
+    .btn-secondary:hover { border-color: var(--fg); }
+    .btn-ghost { background: transparent; color: var(--fg); border-color: transparent; padding-inline: 8px; }
+    .btn-ghost:hover { color: var(--accent); }
+    .btn-lg { padding: 14px 28px; font-size: 17px; border-radius: var(--radius-md); }
+    .btn-xl { padding: 16px 36px; font-size: 18px; border-radius: var(--radius-md); }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       CARDS + SURFACES (from seed)
+       ═══════════════════════════════════════════════════════════════ */
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius-lg); padding: 28px;
+    }
+    .card-flat { background: transparent; border: 0; padding: 0; }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       APP SHELL — full viewport, no scroll when on a screen
+       ═══════════════════════════════════════════════════════════════ */
+    .app-shell {
+      min-height: 100vh; display: flex; flex-direction: column;
+      position: relative; overflow: hidden;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       TOP NAV — subtle, frosted
+       ═══════════════════════════════════════════════════════════════════ */
+    .topnav {
+      position: sticky; top: 0; z-index: 100;
+      background: color-mix(in oklab, var(--bg) 92%, transparent);
+      backdrop-filter: blur(12px); border-bottom: 1px solid var(--border);
+    }
+    .topnav-inner { display: flex; align-items: center; justify-content: space-between; padding-block: 14px; }
+    .topnav .logo { font-family: var(--font-display); font-size: 19px; font-weight: 600; letter-spacing: -0.01em; }
+    .topnav .step-dots { display: flex; gap: 10px; align-items: center; }
+    .step-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--border); transition: all 0.4s var(--ease-standard);
+    }
+    .step-dot.active { background: var(--accent); width: 24px; border-radius: var(--radius-pill); }
+    .step-dot.done { background: var(--success); }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       SCREEN CONTAINER — viewport-height sections, transition between
+       ═══════════════════════════════════════════════════════════════════ */
+    .screens { flex: 1; position: relative; }
+    .screen {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      padding: var(--gap-xl) var(--container-gutter-desktop);
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.5s var(--ease-standard), transform 0.5s var(--ease-standard);
+      transform: translateY(24px);
+      overflow-y: auto;
+    }
+    .screen.active { opacity: 1; pointer-events: all; transform: translateY(0); }
+    .screen.exit-up { opacity: 0; transform: translateY(-32px); }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       CANVAS BACKGROUND — floating particles
+       ═══════════════════════════════════════════════════════════════════ */
+    #particles-canvas {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       SCREEN 1 — WELCOME
+       ═══════════════════════════════════════════════════════════════════ */
+    .welcome-content {
+      position: relative; z-index: 1; text-align: center; max-width: 640px;
+    }
+    .welcome-greeting {
+      font-family: var(--font-mono); font-size: 13px; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--accent); margin-bottom: var(--gap-md);
+      opacity: 0; animation: fadeInUp 0.6s var(--ease-standard) 0.3s forwards;
+    }
+    .welcome-headline {
+      opacity: 0; animation: fadeInUp 0.7s var(--ease-standard) 0.5s forwards;
+    }
+    .welcome-headline .char {
+      display: inline-block; opacity: 0;
+      animation: charReveal 0.4s var(--ease-standard) forwards;
+    }
+    .welcome-subtitle {
+      margin-top: var(--gap-md); opacity: 0;
+      animation: fadeInUp 0.6s var(--ease-standard) 1.0s forwards;
+    }
+    .welcome-cta {
+      margin-top: var(--gap-xl); opacity: 0;
+      animation: fadeInUp 0.6s var(--ease-standard) 1.3s forwards;
+    }
+    .welcome-cta .btn-xl {
+      position: relative; overflow: hidden;
+    }
+    .welcome-cta .btn-xl::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(105deg, transparent 40%, color-mix(in oklab, var(--accent-on), transparent 70%) 50%, transparent 60%);
+      animation: shimmer 2.5s ease-in-out infinite;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       SCREEN 2 — UPLOAD
+       ═══════════════════════════════════════════════════════════════════ */
+    .upload-content {
+      position: relative; z-index: 1; max-width: 560px; width: 100%;
+    }
+    .upload-zone {
+      border: 2px dashed var(--border); border-radius: var(--radius-lg);
+      padding: var(--gap-2xl) var(--gap-xl); text-align: center;
+      transition: all 0.3s var(--ease-standard);
+      cursor: pointer; position: relative;
+      background: var(--surface);
+    }
+    .upload-zone.drag-over {
+      border-color: var(--accent); background: color-mix(in oklab, var(--accent), transparent 95%);
+      transform: scale(1.02); box-shadow: var(--elev-raised);
+    }
+    .upload-zone.has-file {
+      border-style: solid; border-color: var(--success);
+    }
+    .upload-icon-ring {
+      width: 72px; height: 72px; border-radius: 50%;
+      border: 2px solid var(--border); margin: 0 auto var(--gap-md);
+      display: grid; place-items: center;
+      animation: uploadPulse 2s ease-in-out infinite;
+      transition: border-color 0.3s;
+    }
+    .upload-zone.drag-over .upload-icon-ring,
+    .upload-zone.has-file .upload-icon-ring { border-color: var(--accent); animation: none; }
+    .upload-icon-ring svg { width: 28px; height: 28px; color: var(--muted); }
+    .upload-zone.drag-over .upload-icon-ring svg { color: var(--accent); }
+
+    /* file preview card */
+    .file-preview {
+      display: none; align-items: center; gap: var(--gap-md);
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius-md); padding: var(--gap-md); margin-top: var(--gap-md);
+    }
+    .file-preview.visible { display: flex; }
+    .file-preview-icon {
+      width: 44px; height: 44px; border-radius: var(--radius-sm);
+      background: color-mix(in oklab, var(--accent), transparent 90%);
+      display: grid; place-items: center; flex-shrink: 0;
+      color: var(--accent);
+    }
+    .file-preview-icon svg { width: 22px; height: 22px; }
+    .file-preview-info { flex: 1; min-width: 0; }
+    .file-preview-name { font-weight: 600; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .file-preview-size { font-size: 13px; color: var(--muted); }
+    .file-preview-remove {
+      width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border);
+      background: transparent; display: grid; place-items: center; cursor: pointer;
+      color: var(--muted); transition: all 0.15s;
+    }
+    .file-preview-remove:hover { border-color: var(--danger); color: var(--danger); }
+
+    /* progress bar */
+    .progress-track {
+      margin-top: var(--gap-lg); height: 4px; background: var(--border);
+      border-radius: var(--radius-pill); overflow: hidden; opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .progress-track.visible { opacity: 1; }
+    .progress-fill {
+      height: 100%; width: 0%; background: var(--accent);
+      border-radius: var(--radius-pill);
+      transition: width 0.3s var(--ease-standard);
+    }
+    .progress-label {
+      text-align: center; margin-top: var(--gap-sm); font-size: 13px;
+      color: var(--muted); font-family: var(--font-mono); opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .progress-label.visible { opacity: 1; }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       SCREEN 3 — ANALYSIS RESULTS
+       ═══════════════════════════════════════════════════════════════════ */
+    .results-content {
+      position: relative; z-index: 1; max-width: 900px; width: 100%;
+      padding-top: var(--gap-md);
+    }
+    .results-header { text-align: center; margin-bottom: var(--gap-2xl); }
+    .score-ring-wrap {
+      position: relative; width: 140px; height: 140px; margin: 0 auto var(--gap-lg);
+    }
+    .score-ring {
+      transform: rotate(-90deg);
+    }
+    .score-ring-bg {
+      fill: none; stroke: var(--border); stroke-width: 8;
+    }
+    .score-ring-fg {
+      fill: none; stroke: var(--accent); stroke-width: 8; stroke-linecap: round;
+      stroke-dasharray: 377; /* 2π × 60 ≈ 377 */
+      stroke-dashoffset: 377;
+      transition: stroke-dashoffset 1.4s var(--ease-standard) 0.3s;
+    }
+    .score-ring-fg.animate { stroke-dashoffset: 45; /* ~88% */ }
+    .score-number {
+      position: absolute; inset: 0; display: grid; place-items: center;
+      font-family: var(--font-display); font-size: 48px; font-weight: 600;
+      color: var(--fg); letter-spacing: -0.03em;
+      opacity: 0; transition: opacity 0.5s 0.6s;
+    }
+    .score-number.visible { opacity: 1; }
+
+    .skill-bar-row { display: flex; align-items: center; gap: var(--gap-md); margin-bottom: var(--gap-sm); }
+    .skill-bar-label {
+      width: 100px; font-size: 14px; font-weight: 500; flex-shrink: 0;
+      text-align: right; color: var(--muted);
+    }
+    .skill-bar-track {
+      flex: 1; height: 6px; background: var(--border); border-radius: var(--radius-pill);
+      overflow: hidden;
+    }
+    .skill-bar-fill {
+      height: 100%; width: 0; background: var(--fg); border-radius: var(--radius-pill);
+      transition: width 0.8s var(--ease-standard);
+    }
+    .skill-bar-score {
+      width: 40px; text-align: right; font-family: var(--font-mono);
+      font-size: 13px; color: var(--fg); flex-shrink: 0;
+    }
+
+    .insight-card {
+      border-left: 3px solid var(--border); padding: var(--gap-md) var(--gap-lg);
+      background: var(--surface); border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .insight-card:hover { transform: translateX(4px); box-shadow: var(--elev-raised); }
+    .insight-card.weakness { border-left-color: var(--warn); }
+    .insight-card h4 { margin: 0 0 4px; font-size: 16px; }
+    .insight-card p { margin: 0; color: var(--muted); font-size: 14px; }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       SCREEN 4 — CONVERSATION
+       ═══════════════════════════════════════════════════════════════════ */
+    .chat-content {
+      position: relative; z-index: 1; max-width: 700px; width: 100%;
+      display: flex; flex-direction: column; height: calc(100vh - 160px);
+    }
+    .chat-messages {
+      flex: 1; overflow-y: auto; padding: var(--gap-md) 0;
+      display: flex; flex-direction: column; gap: var(--gap-md);
+    }
+    .chat-msg {
+      max-width: 80%; padding: var(--gap-sm) var(--gap-md);
+      border-radius: var(--radius-md); font-size: 15px; line-height: 1.55;
+      animation: msgIn 0.35s var(--ease-standard) both;
+    }
+    .chat-msg.ai {
+      align-self: flex-start; background: var(--surface);
+      border: 1px solid var(--border); border-radius: var(--radius-md) var(--radius-md) var(--radius-md) 4px;
+    }
+    .chat-msg.user {
+      align-self: flex-end; background: var(--accent); color: var(--accent-on);
+      border-radius: var(--radius-md) var(--radius-md) 4px var(--radius-md);
+    }
+    .chat-typing {
+      align-self: flex-start; display: none; align-items: center; gap: 4px;
+      padding: var(--gap-sm) var(--gap-md); font-size: 13px; color: var(--muted);
+    }
+    .chat-typing.visible { display: flex; }
+    .typing-dot {
+      width: 6px; height: 6px; border-radius: 50%; background: var(--muted);
+      animation: typingBounce 1.2s ease-in-out infinite;
+    }
+    .typing-dot:nth-child(2) { animation-delay: 0.15s; }
+    .typing-dot:nth-child(3) { animation-delay: 0.3s; }
+
+    .chat-input-row {
+      display: flex; gap: var(--gap-sm); padding: var(--gap-md) 0;
+      border-top: 1px solid var(--border);
+    }
+    .chat-input {
+      flex: 1; padding: 12px 16px; border: 1px solid var(--border);
+      border-radius: var(--radius-pill); font: inherit; font-size: 15px;
+      background: var(--surface); color: var(--fg);
+      transition: border-color 0.2s;
+    }
+    .chat-input:focus { outline: none; border-color: var(--accent); }
+    .chat-send {
+      width: 42px; height: 42px; border-radius: 50%; border: none;
+      background: var(--accent); color: var(--accent-on);
+      display: grid; place-items: center; cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+      flex-shrink: 0;
+    }
+    .chat-send:hover { background: var(--accent-hover); }
+    .chat-send:active { transform: scale(0.94); }
+
+    .quick-asks {
+      display: flex; flex-wrap: wrap; gap: var(--gap-xs); margin-top: var(--gap-sm);
+    }
+    .quick-ask {
+      padding: 6px 14px; border-radius: var(--radius-pill); cursor: pointer;
+      border: 1px solid var(--border); background: var(--surface);
+      font-size: 13px; color: var(--muted); transition: all 0.2s;
+    }
+    .quick-ask:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       KEYFRAMES — the animation vocabulary
+       ═══════════════════════════════════════════════════════════════════ */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes charReveal {
+      from { opacity: 0; transform: translateY(12px) scale(0.95); filter: blur(4px); }
+      to   { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+    }
+    @keyframes shimmer {
+      from { transform: translateX(-100%); }
+      to   { transform: translateX(100%); }
+    }
+    @keyframes uploadPulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 color-mix(in oklab, var(--accent), transparent 85%); }
+      50%      { transform: scale(1.04); box-shadow: 0 0 0 12px transparent; }
+    }
+    @keyframes msgIn {
+      from { opacity: 0; transform: translateY(12px) scale(0.96); }
+      to   { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    @keyframes typingBounce {
+      0%, 60%, 100% { transform: translateY(0); }
+      30%            { transform: translateY(-6px); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50%      { transform: translateY(-10px); }
+    }
+
+    /* staggered card entry */
+    .stagger-in {
+      opacity: 0; transform: translateY(20px);
+      transition: opacity 0.5s var(--ease-standard), transform 0.5s var(--ease-standard);
+    }
+    .stagger-in.visible { opacity: 1; transform: translateY(0); }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       RESPONSIVE
+       ═══════════════════════════════════════════════════════════════════ */
+    @media (max-width: 920px) {
+      .screen { padding: var(--gap-lg) var(--gap-md); justify-content: flex-start; padding-top: var(--gap-2xl); }
+      .chat-content { height: calc(100vh - 120px); }
+      .results-content { padding-top: var(--gap-lg); }
+      .skill-bar-label { width: 70px; font-size: 12px; }
+      .chat-msg { max-width: 90%; }
+      .score-ring-wrap { width: 110px; height: 110px; }
+      .score-number { font-size: 36px; }
+    }
+    @media (max-width: 480px) {
+      .welcome-headline { font-size: clamp(32px, 8vw, 48px); }
+      .upload-zone { padding: var(--gap-xl) var(--gap-md); }
+      .grid-2 { grid-template-columns: 1fr; }
+      .chat-msg { max-width: 94%; }
+      .quick-asks { flex-direction: column; }
+      .quick-ask { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <!-- ═══════════════════════════════════════════════════════════════
+         PARTICLE CANVAS
+         ═══════════════════════════════════════════════════════════ -->
+    <canvas id="particles-canvas" aria-hidden="true"></canvas>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         TOP NAVIGATION
+         ═══════════════════════════════════════════════════════════════ -->
+    <header class="topnav" data-od-id="topnav">
+      <div class="container topnav-inner">
+        <span class="logo">简历洞察</span>
+        <div class="step-dots" aria-label="步骤指示器">
+          <span class="step-dot active" data-step="0" title="欢迎"></span>
+          <span class="step-dot" data-step="1" title="上传"></span>
+          <span class="step-dot" data-step="2" title="分析"></span>
+          <span class="step-dot" data-step="3" title="对话"></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         SCREENS CONTAINER
+         ═══════════════════════════════════════════════════════════════ -->
+    <div class="screens">
+
+      <!-- ── SCREEN 0: WELCOME ────────────────────────────────────── -->
+      <section class="screen active" data-od-id="welcome" data-screen="0">
+        <div class="welcome-content">
+          <p class="welcome-greeting">智能简历分析 · AI 驱动</p>
+          <h1 class="welcome-headline" id="welcome-headline"></h1>
+          <p class="lead welcome-subtitle">
+            上传一份简历，三秒钟获得深度分析报告。<br>从排版到关键词，从经历到潜力，AI 逐项拆解。
+          </p>
+          <div class="welcome-cta">
+            <button class="btn btn-primary btn-xl" onclick="goToScreen(1)" id="welcome-cta-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
+              上传我的简历
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── SCREEN 1: UPLOAD ─────────────────────────────────────── -->
+      <section class="screen" data-od-id="upload" data-screen="1">
+        <div class="upload-content">
+          <p class="eyebrow" style="text-align:center;">第二步 · 上传简历</p>
+          <h2 style="text-align:center; margin-bottom: var(--gap-lg);">拖放文件到这里</h2>
+
+          <!-- drop zone -->
+          <div class="upload-zone" id="uploadZone" tabindex="0" role="button" aria-label="上传简历文件">
+            <div class="upload-icon-ring">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M17 8l-5-5-5 5M12 3v12"/>
+              </svg>
+            </div>
+            <h3 style="margin-bottom: 4px;">拖放简历文件，或点击选择</h3>
+            <p class="lead" style="font-size:14px; margin:0 auto;">支持 PDF、DOCX、TXT 格式 · 最大 10MB</p>
+            <input type="file" id="fileInput" accept=".pdf,.docx,.txt" style="display:none" />
+          </div>
+
+          <!-- file preview -->
+          <div class="file-preview" id="filePreview">
+            <div class="file-preview-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8zM14 2v6h6"/></svg>
+            </div>
+            <div class="file-preview-info">
+              <div class="file-preview-name" id="fileName">resume.pdf</div>
+              <div class="file-preview-size" id="fileSize">2.4 MB</div>
+            </div>
+            <button class="file-preview-remove" id="fileRemove" aria-label="移除文件">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+          </div>
+
+          <!-- progress -->
+          <div class="progress-track" id="progressTrack">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <p class="progress-label" id="progressLabel">正在解析简历内容…</p>
+
+          <!-- action -->
+          <div style="text-align:center; margin-top: var(--gap-lg);">
+            <button class="btn btn-primary btn-lg" id="analyzeBtn" disabled onclick="startAnalysis()">
+              开始分析
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── SCREEN 2: RESULTS ────────────────────────────────────── -->
+      <section class="screen" data-od-id="results" data-screen="2">
+        <div class="results-content">
+          <div class="results-header">
+            <p class="eyebrow" style="text-align:center; color:var(--muted);">分析报告</p>
+            <h2 style="margin-bottom: 8px;">张明 · 高级前端工程师</h2>
+            <p class="lead" style="margin:0 auto; text-align:center;">6 年经验 · 清华大学计算机硕士 · 3 份工作经历</p>
+          </div>
+
+          <!-- Score ring + key stats row -->
+          <div class="grid-1-2" style="margin-bottom: var(--gap-2xl);">
+            <div style="text-align:center;">
+              <div class="score-ring-wrap">
+                <svg class="score-ring" width="140" height="140" viewBox="0 0 140 140">
+                  <circle class="score-ring-bg" cx="70" cy="70" r="60"/>
+                  <circle class="score-ring-fg" id="scoreRing" cx="70" cy="70" r="60"/>
+                </svg>
+                <div class="score-number" id="scoreNumber">88</div>
+              </div>
+              <p class="meta" style="margin-top:4px;">综合评分 · 百分制</p>
+            </div>
+            <div>
+              <h3 style="margin-bottom: var(--gap-md);">核心技能评估</h3>
+              <div id="skillBars">
+                <!-- filled by JS -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Strengths & Weaknesses -->
+          <div class="grid-2" style="margin-bottom: var(--gap-xl);">
+            <div>
+              <h3 style="margin-bottom: var(--gap-md); display:flex; align-items:center; gap:8px;">
+                <span style="width:8px;height:8px;border-radius:50%;background:var(--success);display:inline-block;"></span>
+                核心优势
+              </h3>
+              <div class="stack" style="gap:var(--gap-sm);">
+                <div class="insight-card stagger-in" data-delay="0">
+                  <h4>技术栈深度匹配</h4>
+                  <p>React / TypeScript / Node.js 全栈能力突出，三个大型项目的技术选型与当前市场需求高度吻合。</p>
+                </div>
+                <div class="insight-card stagger-in" data-delay="1">
+                  <h4>项目成果量化清晰</h4>
+                  <p>每段经历都有可衡量的业务指标 — 性能提升 40%、用户增长 120%、构建时间缩短 60%。</p>
+                </div>
+                <div class="insight-card stagger-in" data-delay="2">
+                  <h4>教育背景突出</h4>
+                  <p>清华大学计算机硕士，GPA 3.8/4.0，ACM-ICPC 亚洲区银牌。</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 style="margin-bottom: var(--gap-md); display:flex; align-items:center; gap:8px;">
+                <span style="width:8px;height:8px;border-radius:50%;background:var(--warn);display:inline-block;"></span>
+                可优化方向
+              </h3>
+              <div class="stack" style="gap:var(--gap-sm);">
+                <div class="insight-card weakness stagger-in" data-delay="3">
+                  <h4>个人项目描述偏弱</h4>
+                  <p>开源贡献和个人项目缺少 STAR 结构，建议补充技术决策背景和量化成果。</p>
+                </div>
+                <div class="insight-card weakness stagger-in" data-delay="4">
+                  <h4>关键词密度不足</h4>
+                  <p>ATS 系统可能漏筛 — "系统设计""性能优化""跨端开发"等关键词出现频次偏低。</p>
+                </div>
+                <div class="insight-card weakness stagger-in" data-delay="5">
+                  <h4>排版建议</h4>
+                  <p>简历超过两页，建议压缩至一页半；技能列表可用标签式排列节省 30% 空间。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA to conversation -->
+          <div style="text-align:center;">
+            <button class="btn btn-primary btn-lg" onclick="goToScreen(3)">
+              针对这份报告，继续提问
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── SCREEN 3: CONVERSATION ────────────────────────────────── -->
+      <section class="screen" data-od-id="conversation" data-screen="3">
+        <div class="chat-content">
+          <p class="eyebrow" style="text-align:center;">AI 简历顾问</p>
+          <div class="chat-messages" id="chatMessages">
+            <!-- filled by JS -->
+          </div>
+          <div class="chat-typing" id="chatTyping">
+            <span>AI 正在输入</span>
+            <span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span>
+          </div>
+          <div class="quick-asks" id="quickAsks">
+            <button class="quick-ask" data-q="0">这份简历最大的优势是什么？</button>
+            <button class="quick-ask" data-q="1">如何优化排版让 ATS 更容易通过？</button>
+            <button class="quick-ask" data-q="2">我的技能标签够不够全面？</button>
+            <button class="quick-ask" data-q="3">适合投递哪些公司的什么岗位？</button>
+          </div>
+          <div class="chat-input-row">
+            <input class="chat-input" id="chatInput" type="text" placeholder="输入你的问题…" maxlength="300" />
+            <button class="chat-send" id="chatSend" aria-label="发送消息">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- .screens -->
+  </div><!-- .app-shell -->
+
+  <script>
+  /* ═══════════════════════════════════════════════════════════════════
+     RESUME ANALYZER — full animation engine
+     ═══════════════════════════════════════════════════════════════════ */
+
+  /* ─── State ──────────────────────────────────────────────────────── */
+  const state = { screen: 0, file: null, analysisDone: false };
+  const dots = document.querySelectorAll('.step-dot');
+
+  /* ─── Screen navigation ─────────────────────────────────────────── */
+  function goToScreen(n) {
+    const screens = document.querySelectorAll('.screen');
+    const cur = screens[state.screen];
+    const next = screens[n];
+
+    if (!next || n === state.screen) return;
+
+    // exit current
+    cur.classList.add('exit-up');
+    cur.classList.remove('active');
+
+    // enter next after brief delay
+    setTimeout(() => {
+      cur.classList.remove('exit-up');
+      next.classList.add('active');
+      state.screen = n;
+      updateDots();
+      onScreenEnter(n);
+    }, 200);
+  }
+
+  function updateDots() {
+    dots.forEach((d, i) => {
+      d.classList.remove('active', 'done');
+      if (i === state.screen) d.classList.add('active');
+      else if (i < state.screen) d.classList.add('done');
+    });
+  }
+
+  /* ─── Screen entry hooks ────────────────────────────────────────── */
+  function onScreenEnter(n) {
+    if (n === 2 && !state.analysisDone) {
+      state.analysisDone = true;
+      animateResults();
+    }
+    if (n === 3) initConversation();
+  }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     PARTICLES — subtle floating dots on welcome/upload screens
+     ═══════════════════════════════════════════════════════════════════ */
+  (function initParticles() {
+    const canvas = document.getElementById('particles-canvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+    let animId;
+
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    const accentRGB = [47, 111, 235]; // matches --accent #2f6feb
+    particles = Array.from({ length: 50 }, () => ({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      r: Math.random() * 2.5 + 0.8,
+      vx: (Math.random() - 0.5) * 0.4,
+      vy: (Math.random() - 0.5) * 0.4 - 0.3,
+      alpha: Math.random() * 0.35 + 0.08,
+    }));
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      const visible = state.screen <= 1;
+      particles.forEach(p => {
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.x < 0) p.x = canvas.width;
+        if (p.x > canvas.width) p.x = 0;
+        if (p.y < 0) p.y = canvas.height;
+        if (p.y > canvas.height) p.y = 0;
+
+        const a = visible ? p.alpha : p.alpha * 0.15;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${accentRGB.join(',')},${a})`;
+        ctx.fill();
+      });
+
+      // connections
+      if (visible) {
+        for (let i = 0; i < particles.length; i++) {
+          for (let j = i + 1; j < particles.length; j++) {
+            const dx = particles[i].x - particles[j].x;
+            const dy = particles[i].y - particles[j].y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < 110) {
+              ctx.beginPath();
+              ctx.moveTo(particles[i].x, particles[i].y);
+              ctx.lineTo(particles[j].x, particles[j].y);
+              ctx.strokeStyle = `rgba(${accentRGB.join(',')},${0.04 * (1 - dist / 110)})`;
+              ctx.lineWidth = 0.5;
+              ctx.stroke();
+            }
+          }
+        }
+      }
+      animId = requestAnimationFrame(draw);
+    }
+    draw();
+  })();
+
+  /* ═══════════════════════════════════════════════════════════════════
+     SCREEN 0 — Welcome text animation
+     ═══════════════════════════════════════════════════════════════════ */
+  (function animateWelcome() {
+    const el = document.getElementById('welcome-headline');
+    const text = '让 AI 读懂你的简历';
+    el.innerHTML = '';
+    text.split('').forEach((ch, i) => {
+      const span = document.createElement('span');
+      span.className = 'char';
+      span.textContent = ch;
+      span.style.animationDelay = (0.5 + i * 0.05) + 's';
+      el.appendChild(span);
+    });
+  })();
+
+  /* ═══════════════════════════════════════════════════════════════════
+     SCREEN 1 — Upload
+     ═══════════════════════════════════════════════════════════════════ */
+  const uploadZone = document.getElementById('uploadZone');
+  const fileInput = document.getElementById('fileInput');
+  const filePreview = document.getElementById('filePreview');
+  const fileNameEl = document.getElementById('fileName');
+  const fileSizeEl = document.getElementById('fileSize');
+  const fileRemove = document.getElementById('fileRemove');
+  const analyzeBtn = document.getElementById('analyzeBtn');
+  const progressTrack = document.getElementById('progressTrack');
+  const progressFill = document.getElementById('progressFill');
+  const progressLabel = document.getElementById('progressLabel');
+
+  uploadZone.addEventListener('click', () => fileInput.click());
+  uploadZone.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fileInput.click(); } });
+
+  uploadZone.addEventListener('dragover', e => { e.preventDefault(); uploadZone.classList.add('drag-over'); });
+  uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('drag-over'));
+  uploadZone.addEventListener('drop', e => {
+    e.preventDefault();
+    uploadZone.classList.remove('drag-over');
+    const file = e.dataTransfer.files[0];
+    if (file) handleFile(file);
+  });
+  fileInput.addEventListener('change', () => {
+    const file = fileInput.files[0];
+    if (file) handleFile(file);
+  });
+
+  function handleFile(file) {
+    state.file = file;
+    fileNameEl.textContent = file.name;
+    fileSizeEl.textContent = formatSize(file.size);
+    filePreview.classList.add('visible');
+    uploadZone.classList.add('has-file');
+    analyzeBtn.disabled = false;
+  }
+
+  fileRemove.addEventListener('click', e => {
+    e.stopPropagation();
+    state.file = null;
+    filePreview.classList.remove('visible');
+    uploadZone.classList.remove('has-file');
+    analyzeBtn.disabled = true;
+    fileInput.value = '';
+    progressTrack.classList.remove('visible');
+    progressLabel.classList.remove('visible');
+    progressFill.style.width = '0%';
+  });
+
+  function formatSize(bytes) {
+    if (bytes < 1024) return bytes + ' B';
+    if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
+    return (bytes / 1048576).toFixed(1) + ' MB';
+  }
+
+  function startAnalysis() {
+    if (!state.file) return;
+    analyzeBtn.disabled = true;
+    analyzeBtn.textContent = '分析中…';
+    progressTrack.classList.add('visible');
+    progressLabel.classList.add('visible');
+
+    const steps = [
+      { pct: 25, label: '正在解析文件结构…', delay: 400 },
+      { pct: 50, label: '提取关键信息与关键词…', delay: 600 },
+      { pct: 75, label: '对比行业基准数据…', delay: 600 },
+      { pct: 90, label: '生成分析建议…', delay: 500 },
+      { pct: 100, label: '分析完成', delay: 400 },
+    ];
+
+    let i = 0;
+    function next() {
+      if (i >= steps.length) {
+        setTimeout(() => goToScreen(2), 300);
+        return;
+      }
+      const s = steps[i];
+      progressFill.style.width = s.pct + '%';
+      progressLabel.textContent = s.label;
+      i++;
+      setTimeout(next, s.delay);
+    }
+    next();
+  }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     SCREEN 2 — Results animation
+     ═══════════════════════════════════════════════════════════════════ */
+  function animateResults() {
+    // score ring
+    setTimeout(() => {
+      document.getElementById('scoreRing').classList.add('animate');
+      document.getElementById('scoreNumber').classList.add('visible');
+    }, 200);
+
+    // skill bars
+    const skills = [
+      { name: '前端框架', score: 92 },
+      { name: 'TypeScript', score: 88 },
+      { name: '系统设计', score: 78 },
+      { name: '工程化', score: 85 },
+      { name: '团队协作', score: 80 },
+    ];
+    const container = document.getElementById('skillBars');
+    container.innerHTML = '';
+    skills.forEach((s, i) => {
+      const row = document.createElement('div');
+      row.className = 'skill-bar-row';
+      row.innerHTML = `
+        <span class="skill-bar-label">${s.name}</span>
+        <div class="skill-bar-track"><div class="skill-bar-fill" style="width:0" data-w="${s.score}"></div></div>
+        <span class="skill-bar-score">${s.score}</span>
+      `;
+      container.appendChild(row);
+      setTimeout(() => {
+        row.querySelector('.skill-bar-fill').style.width = s.score + '%';
+      }, 400 + i * 120);
+    });
+
+    // staggered card reveals
+    setTimeout(() => {
+      document.querySelectorAll('.stagger-in').forEach(el => {
+        const d = parseInt(el.dataset.delay) || 0;
+        setTimeout(() => el.classList.add('visible'), d * 100);
+      });
+    }, 200);
+  }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     SCREEN 3 — Conversation
+     ═══════════════════════════════════════════════════════════════════ */
+  const chatMessages = document.getElementById('chatMessages');
+  const chatTyping = document.getElementById('chatTyping');
+  const chatInput = document.getElementById('chatInput');
+  const chatSend = document.getElementById('chatSend');
+
+  const aiResponses = {
+    0: '综合来看，这份简历最大的优势在于**技术栈深度与项目量化成果的结合**。你在三段工作经历中都给出了可衡量的业务指标，这在求职市场中是稀缺的——大多数候选人的简历都停留在"负责 XX 项目"，而不是"使 XX 指标提升了 YY%"。建议在简历最上方加一个 2-3 行的"核心竞争力摘要"，让 HR 在 5 秒内就能抓住你的价值主张。',
+    1: '针对 ATS 优化，有三点具体建议：\n\n1. **关键词布局**：将 JD 中的高频词（如"跨端开发""微前端""Webpack 优化"）自然融入项目描述，不要堆砌在技能列表里。\n\n2. **格式统一**：使用标准章节标题（工作经验、教育背景、项目经历），避免自定义名称，ATS 的解析器对非标准标题的识别率会下降 40%。\n\n3. **避免图表和双栏**：PDF 中的表格和双栏布局会导致提取乱序，建议用纯文本+项目符号的单栏结构。',
+    2: '你的技能标签覆盖面在同类候选人中属于**中上水平**，但有几个关键缺口：\n\n- **"性能优化"** 只出现了一次，建议在每段前端经历中都提到至少一项性能指标。\n- **"跨端 / 跨平台"** 相关的关键词缺失，如果用过 React Native、Flutter 或 Taro，务必标注。\n- 建议添加 **1-2 个软技能关键词**（如"技术方案设计""跨部门协作"），很多公司的 ATS 会给软技能打分。\n\n你的标签整体偏工具型，补充一些过程型和结果型关键词会让画像更立体。',
+    3: '基于你的技术栈和项目经验，下面几个方向匹配度最高：\n\n**一线大厂**：字节跳动（飞书 / Lark 前端）、腾讯（CSIG 云产品）、阿里（淘系前端）— 你的 React + TypeScript 深度正好对口。\n\n**高成长公司**：Notion、Figma、Linear 的中国竞品（如 WPS 协同、蓝湖）— 你的工具链经验可以直接迁移。\n\n**AI 赛道**：这一批 AI 公司的前端缺口巨大（如 Moonshot、智谱、Minimax），他们需要能独立负责模型产品界面的高级前端——你的全栈能力在这里是加分项。\n\n建议第一优先级投 AI 赛道的高级前端岗，这类岗位目前供需比不到 1:3。',
+  };
+
+  function initConversation() {
+    if (chatMessages.children.length > 0) return; // already inited
+    // initial AI message
+    addMsg('ai', '我已经读完了你的简历。你的技术背景很扎实——6 年前端经验，清华大学硕士，React/TypeScript 深度用户。想深入了解哪方面？可以问我关于 ATS 优化、技能匹配、薪资对标、岗位推荐，或者任何简历相关的问题。');
+    showQuickAsks();
+  }
+
+  function showQuickAsks() {
+    document.getElementById('quickAsks').style.display = 'flex';
+  }
+
+  function addMsg(role, text, delay = 0) {
+    const div = document.createElement('div');
+    div.className = 'chat-msg ' + role;
+    div.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+    if (delay) div.style.animationDelay = delay + 's';
+    chatMessages.appendChild(div);
+    chatMessages.scrollTo({ top: chatMessages.scrollHeight, behavior: 'smooth' });
+  }
+
+  function showTyping() {
+    chatTyping.classList.add('visible');
+    document.getElementById('quickAsks').style.display = 'none';
+  }
+
+  function hideTyping() {
+    chatTyping.classList.remove('visible');
+  }
+
+  function sendMessage(text) {
+    if (!text.trim()) return;
+    addMsg('user', text);
+    chatInput.value = '';
+    showTyping();
+
+    // simulate AI response delay
+    const delay = 1200 + Math.random() * 800;
+    setTimeout(() => {
+      hideTyping();
+      const response = getAIResponse(text);
+      addMsg('ai', response);
+      showQuickAsks();
+    }, delay);
+  }
+
+  function getAIResponse(text) {
+    // keyword matching for realistic responses
+    const t = text.toLowerCase();
+    if (t.includes('优势') || t.includes('亮点') || t.includes('强项')) return aiResponses[0];
+    if (t.includes('ats') || t.includes('排版') || t.includes('格式')) return aiResponses[1];
+    if (t.includes('技能') || t.includes('标签') || t.includes('关键词')) return aiResponses[2];
+    if (t.includes('公司') || t.includes('岗位') || t.includes('投递') || t.includes('推荐')) return aiResponses[3];
+
+    return '这个问题很好。从你的简历来看，我建议从**目标岗位的 JD 出发反向优化**。具体来说：先找 3-5 个你真正想去的岗位描述，提取它们共同的关键词和技能要求，然后对照修改简历中的项目描述。这个过程通常能让简历的 ATS 匹配度提升 25-35%。需要我帮你分析某个特定岗位的 JD 吗？';
+  }
+
+  chatSend.addEventListener('click', () => sendMessage(chatInput.value));
+  chatInput.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(chatInput.value); }
+  });
+
+  // quick-ask chips
+  document.getElementById('quickAsks').addEventListener('click', e => {
+    const btn = e.target.closest('.quick-ask');
+    if (!btn) return;
+    sendMessage(btn.textContent);
+  });
+  </script>
+</body>
+</html>

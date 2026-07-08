@@ -1,0 +1,484 @@
+{
+  "items": [
+    {
+      "company": "中金享",
+      "position": "大模型算法工程师",
+      "tier": "startup",
+      "tech_direction": "算法",
+      "requirements": "做个AI产品，有数据采集AI分析出报告，用现有的大模型微调训练",
+      "source_url": "https://www.zhipin.com/job_detail/d5c7c9a54364b5d90nZ42di-EFdW.html"
+    },
+    {
+      "company": "外企德科数字",
+      "position": "AI机器视觉算法工程师",
+      "tier": "big_core",
+      "tech_direction": "算法",
+      "requirements": "任职要求:\n1、热爱编程，基础扎实，熟悉掌握但不限JAVA/C++/C/Python/JS等编程语言中的一种或数种，有良好的编程习惯，扎实的编程基础；\n2、具备独立工作能⼒和解决问题的能⼒、善于沟通，乐于合作，热衷新技术，善于总结分享，喜欢动⼿实践;\n3、对数据结构算法有一定了解；对操作系统，体系结构，网络等基础原理有⼀定的了解；\n岗位特点：\n1.薪酬一般是12k-30k，根据笔试与面试结果进行定薪；\n2.双休，每个月月末一个周六固定加班，双倍薪资；\n3.五险一金入职就有。试用期薪资不打折；\n4.入职&年度免费体检，免费夜宵、班车&加班打车免费、下午茶、节假日等福利；\n5.全程线上面试，工作地点自由选择：成都、深圳、背景、上海、杭州、西安、南京、武汉、东莞，欢迎咨询~",
+      "source_url": "https://www.zhipin.com/job_detail/3c8d964b29e0b72a0nZ63NS4E1NQ.html"
+    },
+    {
+      "company": "北京某大型智能出行上市公司",
+      "position": "slam算法工程师",
+      "tier": "big_edge",
+      "tech_direction": "算法",
+      "requirements": "工作职责\n负责基于车端在线感知数据的云端建图算法研发，重点包括单趟多帧融合、多趟地图对齐与一致性优化，构建高精度、高鲁棒性的地图结果。\n负责云端地图⽣产链路中的核⼼算法设计与优化，提升⼤规模场景下地图构建的精度、稳定性与工程效率。\n研究并落地前馈式（Feed Forward）3D重建技术，持续跟踪以 VGGT 为代表的前沿方法，探索其在⾃动驾驶地图构建中的应用方案。\n结合业务场景推进几何方法与学习方法的融合，支持云端地图在自动驾驶场景中的持续迭代与规模化应用。\n与感知、定位、地图平台等上下游团队协同，推动算法方案从研究验证到工程落地闭环。\n任职资格\n计算机、自动化、机器人、测绘等相关专业，本科及以上学历。\n具备 3 年及以上 SLAM / 三维重建 / 地图构建相关项目经验，有自动驾驶或大规模地图构建经验者优先。\n深入理解 SLAM 核心技术原理，包括数据关联、位姿估计、非线性优化、因子图建模等。\n熟悉多传感器融合与后端优化方法，具备 g2o、Ceres、GTSAM 等至少一种框架的实际使用经验。\n对前馈式 3D 重建方向有较扎实的理论基础，了解或实践过以 VGGT 为代表的方法，有相关研究、复现或落地经验者优先。\n熟练掌握 C++ / Python，具备较强的算法实现、问题分析与工程落地能力。\n具备良好的技术钻研能力与跨团队协作能力，能够面向实际业务场景持续推进算法优化",
+      "source_url": "https://www.zhipin.com/job_detail/e5ddcd4ec2e25b9d0nB929u8FlRX.html"
+    },
+    {
+      "company": "华为",
+      "position": "算法工程师",
+      "tier": "big_core",
+      "tech_direction": "算法",
+      "requirements": "负责自动驾驶相关算法开发。涉及感知，建图。有相关工作经验优先考虑。",
+      "source_url": "https://www.zhipin.com/job_detail/2a54472ee984c24c1HNy29y4EVtZ.html"
+    },
+    {
+      "company": "字节跳动",
+      "position": "大模型算法工程师-急招",
+      "tier": "big_core",
+      "tech_direction": "算法",
+      "requirements": "我们是谁\n我们是抖音电商搜索团队(Data-搜索-电商),我们的核心使命是通过LLM/VLM/Agent等新技术重塑搜索系统,让用户精准发现所需商品,让商家高效连接消费需求,实现搜索索场景下的'⼈货场'更优匹配。\n\n我们在做什么\n在业务上,我们致⼒于搜索体验、匹配效率提升以及供给⽣生态的牵引,在技术上,聚焦以下关键方向:\n1.NLP与多模态技术:借助于LLM的语义理解、推理能⼒,世界知识,深度挖掘用户意图;通过VLM等关键技术,实现内容/商品的多模态表征和跨模态匹配,推动在Query已收写、相关性、图搜等核心方向落地。\n2.大规模个性化召排:聚焦CTR/CVR等核心任务,通过序列建模、生成式建模、LLM4Rec等关键技术,重塑新一代的召排系统,提高人货匹配能力。\n3.大模型技术应用:基于LLM/Agent术,研发智能导购等创新交互场景,通过SFT/RLHF等技术生成建议摘要,提升用户决策效率。同时推进AIGC创新应用的落地(找搭配/虚拟穿搭等),提升现实与物理世界的交互能力。",
+      "source_url": "https://www.zhipin.com/job_detail/2efec6269d63e1660ndy39u9F1FY.html"
+    },
+    {
+      "company": "北京猛狮科技有限公司",
+      "position": "机器人决策算法工程师",
+      "tier": "startup",
+      "tech_direction": "算法",
+      "requirements": "实习/全职/兼职 均可\n有robocup、robomaster、robocon等机器人竞赛经验的优先。\n熟练使用cursor codex等ai编辑工具。\n要求有工程能⼒，特别优秀者⼯资可⾯议。\n职位描述:\n现招聘机器人初级决策算法工程师，负责⼈形机器人系统中的决策算法开发与优化。岗位聚焦群体智能与多机器人协同决策，你将参与策略设计、仿真验证、真机联调和系统迭代，推动算法在真实机器人平台上的落地应用。\n\n岗位职责:\n负责人形机器人系统中的决策算法开发，包括角色分配、行为决策、任务协同、路径规划及多机器人协作。\n面向群体智能场景，设计并优化单机与多机协同决策逻辑。\n搭建或使用仿真环境进行策略验证，并推动算法向真机部署。\n与感知、控制、通信团队协同联调，提升系统的稳定性、实时性和整体表现。\n基于测试数据、日志和视频分析，持续优化机器人在复杂场景下的决策能力。\n\n任职要求:\n计算机、自动化、机器人、人工智能、控制等相关专业，本科及以上学历。\n熟练掌握 Python 或 C++，具备良好的代码能力和工程实现能力。\n熟悉以下一个或多个方向：\n群体智能\n多智能体决策与协同\n强化学习\n路径规划\n行为树 / 状态机\n机器人控制与运动规划\n具备较强的问题分析能力和系统调试能力。\n有机器人项目、机器人竞赛或相关研发经验者优先。\n\n加分项:\n有 RoboCup、人形机器人、群体智能或博弈决策相关经验。\n熟悉 ROS / ROS2 通信框架。\n有强化学习训练、仿真平台开发或 Sim2Real 经验。\n有多机器人协同或真实机器人落地经验。",
+      "source_url": "https://www.zhipin.com/job_detail/b0447b8146cfc5520nZz39m6FFVQ.html"
+    },
+    {
+      "company": "某大型知名互联网公司",
+      "position": "泊车算法工程师",
+      "tier": "big_core",
+      "tech_direction": "算法",
+      "requirements": "岗位职责负责自动驾驶系统中泊车产品和Robotaxi的软件研发，主要包括但不限于以下几项: 1、研发泊车产品和L4级Robotaxi规划决策、运动控制等算法；2、研发泊车产品的感知算法、定位算法，包含目标检测、车位检测、自车定位等；3、参与系统集成、仿真测试、实车调试和量产适配工作4、负责算法设计文档、测试文档等的制定；\n职位要求1、计算机、自动化、机械等相关专业，本科以上学历 ；2、 对于运动规划、控制理论、泊车感知和定位有较深的理解，并有实际算法开发调试经验；3、熟悉泊车相关传感器如环视摄像头、超声波等原理；4、精通C/C++/Python语言编程，掌握Visual Studio、Matlab、Simulink等相关工具的使用；5、有泊车产品的感知、定位算法、规划、控制算法开发经验者优先；6、有相关机器人、无人机、无人车比赛经历者优先；7、有较强的的独立工作能力和团队精神，愿意在这个行业与企业共同成长发展",
+      "source_url": "https://www.zhipin.com/job_detail/e983b9dbcefe06821HR_2N60FFRV.html"
+    },
+    {
+      "company": "小马智行",
+      "position": "算法工程师 | 端到端模型 |",
+      "tier": "big_edge",
+      "tech_direction": "算法",
+      "requirements": "算法工程师 - 端到端模型\n职位描述\nAI团队致力于探索前沿的人工智能技术，打造通⽤、⾼效的端到端模型驱动的⾃动驾驶解决方案，并将其在跨平台的L4 Robotaxi与量产车上进行部署。我们欢迎对AI技术充满热情、敢于挑战⾃己，并能脚踏实地，将前沿技术付诸于实践、创造价值的同学。\n在这个岗位上，你将能：\n1. 学习行业前沿的深度学习技术；\n2. 与技术大牛进行深入的思维碰撞；\n3. 在深度模型与算法的结合上创造新的火花；\n4. 让你的技术方案在行业顶尖的L4全无人车辆上进行部署；\n职位要求\n1. 计算机相关专业本科以上学历；\n2. 熟练掌握Python/C++，具备良好的工程能力和严谨的编程习惯；\n3. 熟悉PyTorch/NumPy等深度学习框架和张量运算库；\n4. 对深度学习技术充满热情，有从零到一构建模型的经验；\n5. 熟悉机器学习基础知识，能够对前沿技术建立自己的知识体系和深入理解；\n6. 具备持续学习和自主钻研精神；\n加分项\n1. 在机器学习/计算机视觉相关的高水平学术会议上发表过论文；\n2. 具备出色的算法能力，在ACM/NOI/IOI等算法赛事上取得过名次；\n3. 有受到认可的大型开源项目开发经验；\n5. 有CUDA/TensorRT等平台上的底层算子开发经验；\n\n方向一：算法工程师 - AI团队 - 端到端感知/基础模型\n背景要求：有计算机视觉、3D检测/分割、多传感器融合、目标跟踪、视频理解、多任务训练、基础模型结构设计、模型蒸馏等相关领域的工程或研究经历；\n\n方向二：算法工程师 - AI团队 - 端到端决策规划\n背景要求：有轨迹规划/预测、强化学习、模仿学习、生成模型、控制理论等相关领域的工程或研究经历；\n\n方向三：算法工程师 - AI团队 - 世界模型\n背景要求：有生成模型（Diffusion / Flow Matching / GAN）、交通流预测/生成、强化学习等相关领域的工程或研究经历。",
+      "source_url": "https://www.zhipin.com/job_detail/21e9e9725aa3e9e00nZ62t2-E1tZ.html"
+    },
+    {
+      "company": "北京迈思拓管理咨询",
+      "position": "强化学习算法工程师",
+      "tier": "startup",
+      "tech_direction": "算法",
+      "requirements": "一、岗位职责\n1. 核心算法研发与优化\n  ● 负责机器人具身操作任务的强化学习算法开发，涵盖架构设计、数据处理、训练优化及真机部署\n  ● 重点研究包括但不限于PPO, SAC等主流算法，以及模仿学习、VLA等前沿技术\n2. 仿真到现实迁移\n  ● 主导或深度参与从模拟到现实的迁移技术研究\n  ● 利⽤Isaac Sim, MuJoco, Gazebo等仿真平台训练算法，并通过域随机化、微调等技术提升算法在真实环境中的精度、鲁棒性和泛化能⼒\n3. 技术追踪与创新\n  ● 持续跟踪具⾝智能与强化学习领域的前沿进展，进行技术调研、性能评估\n  ● 将先进算法理念应用于实际产品开发，推动技术创新\n\n⼆、任职要求\n核心要求：\n  ● 掌握强化学习核心理论，熟悉DQN, PPO, SAC等主流算法的原理与应用\n  ● 对模仿学习、大模型与具身智能结合方向有理解者更佳\n  ● 熟练掌握Python/C++，精通PyTorch/TensorFlow等深度学习框架，具备大规模模型训练与调试经验\n  ● 熟悉Transformer, Diffusion Model等主流架构，具备多模态大模型（VLM/VLA）的预训练、微调等实践经验者优先\n加分项：\n  ● 具备优秀的代码能力，能够独立完成从算法设计、仿真验证到真机部署的完整闭环\n  ● 在相关顶级会议或期刊发表过相关论文，或参与过大型机器人、自动驾驶项目\n  ● 具备较强的技术文档撰写能力、团队协作精神及创新思维",
+      "source_url": "https://www.zhipin.com/job_detail/1cb342b09d226fa50nZ60tu_EFRY.html"
+    },
+    {
+      "company": "上海万宝盛华信息科技",
+      "position": "后端开发（语言不限）全额社保公积金",
+      "tier": "mid",
+      "tech_direction": "后端",
+      "requirements": "1、负责大数据/虚拟化/数据库/分布式存储/云原生/搜推广/机密计算/HPC等场景下的软件&算法设计、开发工作；\n2、负责Linux平台下开源软件在鲲鹏上的创新、开发，并参与开源贡献；引领开源社区技术创新⽅向，构建和繁荣鲲鹏⽣态；\n3、分析研究典型业务(数据库，⼤数据，分布式存储，虚拟化，云原生，HPC等)在通用计算平台(CPU、内存、⽹络和存储)的计算特征，研究典型业务的性能建模，输出典型场景下下一代CPU微架构、内存模型、网络模型及系统方案。\n业务技能要求：\n1、C/C++/Java/Python等编程基本功扎实，熟悉数据结构和常用算法，熟悉操作系统、内存管理等基础知识；\n2、较强的沟通和表达能力和优秀的团队合作意识，有较强的学习和求知欲；\n3、有分布式计算、存储系统研究和开发经验优先\n4、有性能优化，关键/重大问题攻关经验优先；\n5、具备独立开发能力和解决问题的能力；",
+      "source_url": "https://www.zhipin.com/job_detail/f4c9329b88d533100nB_29i6FFRW.html"
+    },
+    {
+      "company": "京东零售",
+      "position": "后端架构师",
+      "tier": "big_core",
+      "tech_direction": "后端",
+      "requirements": "【岗位名称】后端架构师（供应链-库存/履约方向）\n【岗位职责】\n1. 主导京东Joybuy欧洲电商供应链核心领域（库存管理、订单履约全链路）架构设计、技术选型与演进，支撑欧洲业务扩张；有Shein、TEMU、Amazon、TikTok Shop、Shoppee等跨境电商研发经验者优先；\n2. 针对跨境履约场景中的高并发、⾼可⽤、低延迟核⼼诉求，设计并落地分布式架构解决方案，解决全球库存协同、跨境物流链路整合、多仓调度优化等关键技术难题；\n3. 负责库存与履约领域的技术架构治理，包括系统解耦、性能优化、容灾备份、安全防护体系建设，保障大促（⿊五、网一、双十一等）期间全球业务系统稳定运行；\n4. 牵头供应链技术能力沉淀与平台化建设，构建可复用的库存管理、履约调度、物流协同等核心组件/中间件，提升跨境供应链研发效率与业务响应速度；\n5. 引领技术团队开展技术攻关与创新，主导核心技术方案评审，培养后端核心研发人才，提升团队整体技术水平；\n6. 联动业务、产品、运维及跨区域技术团队，推动供应链技术架构与业务策略深度融合，支撑全球履约效率提升、库存周转优化等核心业务目标。\n\n【任职资格】\n1. 5年以上Java开发经验，2年以上跨境电商（Shein/TEMU/Amazon/TikTok Shop/Shoppee等任一头部平台优先）后端架构设计经验，扎实的JVM、并发编程、分布式系统、微服务架构、数据结构与算法功底；\n2. 深入理解跨境电商供应链业务逻辑，尤其精通库存管理（全球多仓协同、安全库存设置、库存预警、调拨策略）或者履约全链路（订单拆分、拣选、打包、跨境物流对接、清关协同、末端配送）等核心场景；\n3. 熟练掌握分布式架构核心组件的设计与落地，包括但不限于缓存（Redis集群）、消息队列（RocketMQ/Kafka）、RPC框架（Dubbo/Grpc）、服务网格、云原生（K8s）等技术，具备大规模分布式系统架构实战经验；\n4. 精通存储层技术架构设计与优化，深入理解MySQL、ES、Redis、ClickHouse、HBase等存储引擎的底层原理，具备复杂SQL/查询优化、海量数据存储与计算方案设计能力；\n5. 具备独立主导大型技术项目的经验，能够精准识别技术瓶颈并提出有效解决方案，有跨境大促技术保障、全球分布式系统容灾设计实战经验者优先；",
+      "source_url": "https://www.zhipin.com/job_detail/313cba92e62f555f0nd53NS6GFBV.html"
+    },
+    {
+      "company": "上海灵宇宙/灵宇宙",
+      "position": "后端开发实习生(python)",
+      "tier": "startup",
+      "tech_direction": "后端",
+      "requirements": "岗位职责\n开发基于AI技术的多模态创新服务，实现智能硬件与云端模型的交互。\n优化AI模型推理效率，提升响应速度与准确性。\n负责设计和开发与各大模型平台的对接接口，构建和优化智能体的工作流与决策逻辑。\n负责公司现有服务体系日常维护、故障排查和性能优化。\n跨团队合作，推动新技术融入产品。\n任职要求\n热爱捣⿎！！！\n计算机或相关领域学⽣。\n掌握Python语⾔及相关生态，熟悉FastAPI、Django或Flask等至少⼀种主流Web框架。\n理解大模型原理，具备常用框架实战经验，理解MCP、RAG、Harness Engineering、Workflow编排等技术原理与应用范式。\n掌握数据库/缓存技术（如 MySQL/PostgreSQL/MongoDB/Redis），具备数据库设计及优化能力。\n对AI技术和行业动态有持续热情和关注。\n具备其他语言，如Go、PHP、JAVA的实际项目开发经验者优先。\n有独立开发者经验优先",
+      "source_url": "https://www.zhipin.com/job_detail/2a60dee1f360eec00nB60t-5EFBQ.html"
+    },
+    {
+      "company": "慧博云通",
+      "position": "后端开发，普泰大厦",
+      "tier": "big_core",
+      "tech_direction": "后端",
+      "requirements": "薪资：全额缴纳社保公积金，或者社保80%，公积金90%。\n\n公司福利：五险一金 + 每年⼀次免费体检（⼊职体检不包括）+ 带薪假期+⽣日、司龄、过节礼物。\n\n需要现场面试。\n\n岗位JD：\n1、统招本科，6年及以上后端开发经验，能独⽴主导中大型项目的架构设计、技术选型及全流程交付。\n2、精通主流Java框架底层原理：Spring（含Spring MVC）、Spring Boot、MyBatis等，能够基于业务特性自主构建高扩展、可维护的后端技术框架。\n3、深入掌握分布式架构核心组件：熟悉Spring Cloud Alibaba / Dubbo 等微服务生态，理解服务发现、配置管理、限流熔断等底层逻辑；精通分布式事务解决方案（Seata、TCC、最终一致性等），具备复杂业务场景下的实战经验。\n4、具备高并发、高负载、高可用系统设计与调优能力：包括多级缓存、异步处理、削峰填谷、容灾降级、全链路压测等。\n5、掌握云原生与DevOps全链路工具链：Git、Maven/Gradle、Docker、Kubernetes（K8s）、CI/CD流水线（Jenkins/GitLab CI等），能够独立完成容器化部署与运维。\n6、熟练掌握关系型数据库：MySQL、Oracle，具备SQL优化、分库分表、读写分离等设计能力；熟悉至少一种NoSQL（Redis/Elasticsearch/MongoDB）者优先。\n7、有商城和教育平台开发经验者优先。\n办公地点：西罗园普泰大厦",
+      "source_url": "https://www.zhipin.com/job_detail/fc4dc97e1e5896610nF42dm7E1FT.html"
+    },
+    {
+      "company": "原力灵机",
+      "position": "后端开发实习生",
+      "tier": "mid",
+      "tech_direction": "后端",
+      "requirements": "\"岗位职责：\n1. 设计并实现公司数据平台业务的后端服务，确保系统的可靠性、可扩展性和性能\n2. 参与基础设施建设，包括服务框架、数据库、存储、⽇志告警等；\n3. 分析解决系统中的技术难题，持续优化系统架构和性能\n4. 参与具⾝数据⾤集、处理、存储、分发等全流程开发；\n5. 负责接口设计、SDK开发、数据可视化相关工作；\n6. 与前端、算法、产品等团队协作，推进服务迭代和落地；\n\n任职要求：\n1. 本科及以上学历，计算机科学和软件工程相关专业；\n2. 熟悉Python、Go、Java、C++等⾄少一种语言；\n3.可实习三个月及以上。\"",
+      "source_url": "https://www.zhipin.com/job_detail/b5e5157ea853acf50nV929u5GFJQ.html"
+    },
+    {
+      "company": "广东仟锐",
+      "position": "java后端开发工程师",
+      "tier": "startup",
+      "tech_direction": "后端",
+      "requirements": "岗位职责\n1、负责业务后端系统的开发、迭代优化与功能落地，保障系统稳定、高效运行，配合团队完成项目研发交付工作；\n2、深⼊负责Elasticsearch、Kafka中间件的业务具体落地实现，承担⽇常基础数据运维⼯作，包括数据同步、异常排查、性能优化、日常监控维护等，保障中间件服务稳定可用；\n3、负责项⽬云平台部署落地，熟练完成K8s容器化部署、服务编排、资源调度等相关工作，保障云端服务正常运行；\n4、维护并优化项目全自动CI/CD流水线，参与研发部署流程迭代，实现代码提交、构建、测试、部署全流程自动化，提升团队研发交付效率；\n5、负责数据同步相关开发运维工作，优先使用Canal组件完成数据增量同步、数据迁移、数据一致性保障等相关业务需求；\n6、配合团队完成线上问题排查、技术迭代、需求对接，持续优化系统架构与业务逻辑。\n三、任职要求\n学历要求：统招专科+自考本科，统招本科优先，学信网全可查；\n核心技能要求：\n1、扎实掌握Java后端开发基础，具备实际项目开发经验，熟悉常用后端技术栈；\n2、精通ES、Kafka核心原理，熟悉二者具体实现方式，具备独立开展基础数据运维、性能调优、故障排查的实操能力，不局限于简单使用；\n3、熟悉云平台架构，熟练掌握K8s容器化部署流程，能够独立完成服务容器打包、部署、扩容、运维等相关操作；\n4、熟悉全自动CI/CD研发流程，了解流水线搭建、配置、迭代逻辑，能够保障项目自动化部署稳定运行；\n5、有Canal实际项目落地使用经验者优先，熟悉数据同步场景及Canal运维、调优技巧；\n6、逻辑思维清晰，具备良好的问题排查能力、沟通协作能力，执行力强，能够快速融入团队、上手项目；",
+      "source_url": "https://www.zhipin.com/job_detail/fb7b623f96ec22c50nF529i1GVRW.html"
+    },
+    {
+      "company": "京东物流",
+      "position": "后端开发工程师岗",
+      "tier": "big_core",
+      "tech_direction": "后端",
+      "requirements": "岗位职责及目标\n负责京东物流分拣中心系统建设，助力业务灭霸项目、登峰项目达标\n任职要求\n1、5年以上Java后台研发经验，有大型电商互联网产品开发经验者优先\n\n2、精通Java/J2EE开发相关技术，熟悉常用的Java Web服务器\n\n3、理解IoC、ORM、AOP等设计思想，理解掌握常用的开源框架。\n\n4、熟悉Java虚拟机调优，熟悉Java虚拟机内存管理原理\n\n5、精通常用的缓存技术，如memcache、redis、mongo等\n\n6、精通多线程编程，熟悉NIO、反射等技术\n\n7、精通MySQL，了解存储引擎、索引、大量数据分区分表\n\n8、熟悉常用的设计模式，具备优秀的技术架构的设计能力\n\n9、具有高并发高可用服务接口设计开发经验，有在大型互联网公司工作经验者优先录用\n\n10、热爱技术、做事追求完美的技术达人优先考虑\n\n符合京东价值观：客户为先、创新、拼搏、担当、感恩、诚信。",
+      "source_url": "https://www.zhipin.com/job_detail/b7d4c2acd28315d903d82tu6F1FY.html"
+    },
+    {
+      "company": "艾达乐博",
+      "position": "后端开发实习生",
+      "tier": "mid",
+      "tech_direction": "后端",
+      "requirements": "岗位职责：\n1、参与研发各种Web平台产品，包括广告平台，营销平台，数据分析优化平台，后端云服务平台，效率工具平台，智能运维平台等；\n2、有机会参与打造高性能，高并发，⽀持亿级DAU⽤户的⼴告平台和数据平台；\n3、有机会参与为App开发打造分布式，高性能，高扩展的新⼀代Serverless后端云服务（Backend as a Service）系统；\n4、有机会参与打造面向App产品的一站式优化平台，提供包括用户画像，产品跟踪优化，推荐系统等服务;\n5、研发和维护针对全球用户的高可用高性能的后端服务;6、研发面向海量数据的存储、管理、查询和ETL等服务。\n\n任职要求：\n1、统招本科及以上学历，计算机及相关专业；\n2、爱编程，基础扎实，对数据结构，算法，数据库，网络原理等计算机基础有深入的理解；\n3、熟悉Python、Go、C/C++、Java等语言中的一种或多种，愿意深入学习Python和Go；\n4、热爱移动互联网，对该领域有浓厚的兴趣；有相关的开发和项目经验者优先；\n5、优秀的分析问题和解决问题的能力，对解决具有挑战性问题充满激情。",
+      "source_url": "https://www.zhipin.com/job_detail/a7f644233e9c81b90nB509S9FlRW.html"
+    },
+    {
+      "company": "深澜智远",
+      "position": "前端开发",
+      "tier": "startup",
+      "tech_direction": "前端",
+      "requirements": "岗位职责：  \n1、负责公司Web端及移动端前端开发工作，完成高质量的代码实现；  \n2、参与产品需求评审与技术方案讨论，协同团队推进项目落地；  \n3、持续优化前端性能与⽤户体验，提升页⾯加载速度与交互流畅性；  \n4、参与前端基础建设，包括组件库、⼯具链和开发规范的维护与优化；  \n5、配合后端、设计及测试团队，确保系统整体稳定与高效协作；  \n\n任职要求：  \n1、熟练掌握HTML、CSS、JavaScript等前端基础技术，具备良好的代码规范意识；  \n2、熟悉主流前端框架（如Vue、React）及其生态体系；  \n3、掌握前端构建⼯具（如Webpack、Vite）和版本控制工具（如Git）；  \n4、具备跨浏览器、跨终端兼容性处理经验，理解响应式布局与移动端适配；  \n5、对前端性能优化、可维护性、可访问性有一定实践和理解；  \n6、具备良好的沟通能力和团队协作精神，能积极应对技术挑战并推动问题解决；",
+      "source_url": "https://www.zhipin.com/job_detail/8349f93e593dd0d70nZy3tu4FlFZ.html"
+    },
+    {
+      "company": "北京冰迅智能科技",
+      "position": "1. 前端开发 (AIGC 产品方向)",
+      "tier": "startup",
+      "tech_direction": "前端",
+      "requirements": "岗位职责：\n- AI 内容交互优化： 负责基于爬虫数据和 AI 大模型生成的图片、⽂章、视频等内容的前端展⽰与交互逻辑开发，优化内容呈现质量。\n- SaaS 平台迭代： 深度参与公司 SaaS 产品的页⾯开发与性能优化，持续提升 AI 工作流（Workflow）的操作流畅度和易用性。\n- 组件化开发： 封装⾼质量的前端组件，提升团队开发效率。\n任职要求：\n- 计算机或相关专业本科及以上在读，具备扎实的计算机基础。\n- 熟练掌握 HTML5/CSS3/JavaScript，熟悉 ES6+ 语法。\n- 至少熟练掌握一种主流前端框架（React / Vue），理解其核心原理。\n-  有使用 Git、Vite/Webpack、ESLint 等现代前端工具链的经验，了解模块化开发。\n加分项：\n- 熟练使用AI工具提升开发效率\n- 有项目经验优先，能够快速接手公司项目",
+      "source_url": "https://www.zhipin.com/job_detail/6de48af14db77fb70nV629i1EFRY.html"
+    },
+    {
+      "company": "北京独流科技有限公司",
+      "position": "前端开发工程师",
+      "tier": "mid",
+      "tech_direction": "前端",
+      "requirements": "岗位职责：  \n1、负责Web前端页面的设计与开发，实现高性能、可维护的用户界面；  \n2、与后端团队协作，完成数据接口对接与联调，保障系统整体稳定性；  \n3、优化前端性能，提升加载速度与交互体验，适配多终端设备；  \n4、参与前端架构设计，推动组件化与⼯程化建设；  \n\n任职要求：  \n1、熟练掌握HTML、CSS、JavaScript等前端基础技术，熟悉响应式布局与浏览器兼容性处理；  \n2、精通主流前端框架（如React、Vue等），具备独⽴开发能⼒；  \n3、熟悉前端构建工具和工程化流程，了解Webpack、Vite等⼯具的使用与配置；  \n4、具备良好的代码规范意识和逻辑思维能力，有较强的学习能力和团队协作精神；",
+      "source_url": "https://www.zhipin.com/job_detail/2151024973427f940nBz09y7EFVU.html"
+    },
+    {
+      "company": "小红书",
+      "position": "前端开发工程师",
+      "tier": "big_core",
+      "tech_direction": "前端",
+      "requirements": "内推，后续补岗位介绍，欢迎了解",
+      "source_url": "https://www.zhipin.com/job_detail/f28444bbad06bed81HV729m5E1VY.html"
+    },
+    {
+      "company": "字节跳动",
+      "position": "前端开发实习生",
+      "tier": "big_core",
+      "tech_direction": "前端",
+      "requirements": "是日常实习！\n字节跳动中国交易与广告 - 用户增长与数据 研发实习生招聘\n⾯向2028 届毕业⽣（2027.9-2028.8 毕业）！\n团队介绍\n负责抖⾳电商、生活服务、广告营销等营收业务研发，投⾝流量与增长主战场，用技术解决真实业务问题，助力营收长效增长。\n关键岗位\n后端开发实习生：北京 / 上海 / 杭州 / 成都\n前端开发实习生：北京 / 上海 / 杭州 / 成都",
+      "source_url": "https://www.zhipin.com/job_detail/122a835ed217802c0nZ-09u9FFNS.html"
+    },
+    {
+      "company": "中科聚网",
+      "position": "前端开发工程师（北京)",
+      "tier": "mid",
+      "tech_direction": "前端",
+      "requirements": "1．理解设计和产品经理的设计意图，对前后端分离开发有深刻理解，熟悉前后端分离开发模式； 与后台开发人员具备良好的协作项目开发经验。\n2、基于HTML5/CSS3/JS开发互动页面，设计、开发前端框架工具类库组件。\n3、研究并实施 Web 开发相关的前沿技术，解决各种浏览器和移动设备的兼容性问题。\n4、对交互开发、用户体验等方面有自己的见解，能主动根据需要，提出合理的交互方案。\n\n任职要求：\n1、计算机相关专业，学信网可查统招本科及以上学历，5年及以上前端开发经验。\n2、熟练运用JavaScript、Ajax、Jquery、HTML5、Canvas、SVG、CSS3等WEB前端技术。\n3、有H5开发经验，精通Layui、VUE等前端框架，熟悉React、Angular等前端框架及相关延伸扩展，熟悉路由规则、组件间通信和数据管理等优先考虑。\n4、熟悉界面ui、ajax、json、浏览器特性、结构优化、前端自动化工具等知识点。\n5、具备一定的程序设计理念，对前端工程化具备实践经验，有良好的代码编写习惯，具有编写技术文档的能力与习惯\n6、有良好的逻辑思维，把握前端代码质量，实现产品、UI设计师的产品意图，为用户提供高水平交互操作。\n7、对移动端的用户体验有深刻认知。",
+      "source_url": "https://www.zhipin.com/job_detail/7065ee8e31ff62641Hx_2t26F1BX.html"
+    },
+    {
+      "company": "北京数才启航科技",
+      "position": "前端开发实习生",
+      "tier": "startup",
+      "tech_direction": "前端",
+      "requirements": "岗位职责：  \n1、参与前端页⾯的设计与开发，实现良好的⽤户交互体验；  \n2、配合产品和设计团队，完成需求的开发与迭代；  \n3、参与前端代码的维护与优化，提升页⾯性能和加载速度；  \n4、学习并应用主流前端技术栈，支持多终端适配与响应式布局；  \n\n任职要求：  \n1、20-32岁⼤专及以上学历，对前端开发有浓厚兴趣；  \n2、了解Vue、React等主流前端框架，有实际练习项目者优先；  \n3、具备良好的学习能力和问题解决意识，能快速掌握新技术；  \n4、具有团队协作意识，沟通积极，责任心强，能适应快节奏的学习与开发任务；",
+      "source_url": "https://www.zhipin.com/job_detail/592278180094e1650nZ50ti5EFRS.html"
+    },
+    {
+      "company": "数智九州",
+      "position": "资深前端开发工程师",
+      "tier": "mid",
+      "tech_direction": "前端",
+      "requirements": "职位描述\n工作职责\n1.配合设计师、产品人员实现产品UI和交互方面需求的开发，实现Web界面并保持良好兼容性；\n2.与后台开发工程师合作，完成并优化前端交互流程，优化代码提高web性能和用户体验；\n3.参与多平台的应用开发，包括小程序、Web、Mobile、H5、APP等产品，负责前端交互的实现。\n4.负责系统前端开发框架的选型及搭建\n5．有企业微信研发经验优先\n6.有银行网贷平台研发经验优先\n\n职位要求\n1. 精通XHTML/XML、CSS，熟悉页面架构和布局，对表现与数据分离、Web语义化等有深刻理解，熟练使用HTML5/CSS3等技术，了解nodejs者优先；；\n2. 精通JavaScript、Ajax、DOM等前端技术，掌握面向对象编程思想，熟悉VUE前端框架，有实际研发经验\n3. 能够独力完成前端代码的编写，按照设计效果图、需求实现前端功能，并具备初步的图片处理能力；\n4. 对css/JavaScript性能优化、解决多浏览器兼容性问题有一定的经验；\n5.对前端技术有持续的热情，积极乐观，认真负责，思路清晰，乐于与人合作，善于沟通，有较强的学习能力。\n6. 对用户体验、交互操作流程、及用户需求有深入理解\n7. 有强烈的上进心和求知欲，善于学习和运用新知识，善于沟通和逻辑表达，有强烈的团队意识和执行力",
+      "source_url": "https://www.zhipin.com/job_detail/87bf0ae6e335bd8d1Hx43Ny9ElBZ.html"
+    },
+    {
+      "company": "北京山海赋旅游发展",
+      "position": "前端开发工程师",
+      "tier": "startup",
+      "tech_direction": "前端",
+      "requirements": "工作职责\r\n\r\n1.基于UniApp的跨平台小程序、以及Vue/React技术栈的Web管理后台的产品功能开发、性能优化与体验提升。\r\n2.参与前端技术选型、架构设计和工程化体系建设，制定并推动代码规范与质量标准落地。\r\n3.持续优化应用性能（如⼩程序启动速度、页⾯渲染效率），构建监控体系保障线上稳定。\r\n4.与产品、设计及后端团队紧密协作，⾼效推进项目，并能主导技术方案评审与难题攻关。\r\n5.探索AI辅助编程等前沿开发模式，研究新技术并推动其在团队内的应⽤与实践。\r\n我们希望你具备：\r\n\r\n要求：\r\n1.计算机相关专业，5年以上前端开发经验。\r\n2.精通小程序开发：拥有丰富的UniApp或类似跨端框架（Taro等）实战经验，熟悉其原理、性能优化及原生混合开发。\r\n3.精通至少一个主流框架：深入理解Vue 3（组合式API、Pinia、Vite）或React（Hooks、状态管理）及其生态，并具备实际项目经验。\r\n4.熟练掌握JavaScript/TypeScript、ES6+、CSS3，具备扎实的编程能力和良好的代码设计思想。\r\n5.熟悉前端工程化与性能优化：精通Webpack/Vite，有前端CI/CD、性能监控、组件库建设等经验。\r\n加分项（具备更佳）：\r\n1.有从0到1主导过中大型小程序或复杂后台系统的前端架构经验。\r\n2.熟悉Canvas/WebGL、数据可视化、Node.js全栈开发中的一项或多项。\r\n3.对 UI/UE 设计具备独立思考能力，拥有独到审美与专业见解。\r\n4.对AI辅助开发工具（如Copilot、Cursor、trae等）有浓厚兴趣和实际使用心得。\r\n5.有技术博客、开源项目贡献或强烈的技术分享热情。",
+      "source_url": "https://www.zhipin.com/job_detail/71ed0ef0863f18410ndz3ty_FFtU.html"
+    },
+    {
+      "company": "首钢自动化",
+      "position": "前端开发（应届）",
+      "tier": "mid",
+      "tech_direction": "前端",
+      "requirements": "岗位职责：\n1、参与软件开发项目，负责集采项目的需求调研、软件开发实施等工作；\n2、负责软件程序设计与代码编写、运⾏系统⽇常运维、⽂档编写、软件单元的测试。\n任职要求：\n1、本科以上学历，计算机相关专业；\n2、熟悉Vue、JavaScript前端技术；\n3、熟练掌握 Webpack、Gulp等构建工具，理解打包过程和原理；\n4、积极肯干，思维活跃，有团队合作精神；\n5、有较强的学习能⼒、语言沟通能力。",
+      "source_url": "https://www.zhipin.com/job_detail/ab34da1df09b23ef0nR72tm_GVBW.html"
+    },
+    {
+      "company": "晟丰原科技",
+      "position": "【React/Vue】Flutter前端开发",
+      "tier": "mid",
+      "tech_direction": "前端",
+      "requirements": "岗位职责：\n1、负责公司 Web 端和APP端产品的前端架构设计、开发与优化，确保产品的高性能、高可用性和良好的用户体验\n2、负责 Flutter 跨平台应⽤的开发与维护，实现 iOS 和 Android 双端统⼀的功能与交互体验\n3、参与前端技术选型、技术规范制定和代码评审，提升团队整体开发效率和代码质量\n4、与产品、设计、后端⼯程师紧密协作，理解业务需求，具备审美能力，了解后端技术，提供技术解决方案并推动落地\n5、跟踪前端领域最新技术动态，引⼊并落地适合团队的新技术、新方案\n任职要求：\n1、专科及以上学历，计算机相关专业优先\n2、3 年及以上前端开发经验，具备扎实的 JavaScript/TypeScript 基础，熟悉 ES6 + 语法\n3、精通至少一种主流前端框架（React/Vue/Angular），有大型 Web 应用开发经验\n4、熟练掌握 Flutter 框架，有至少 1 个完整的 Flutter 商业项目开发经验，能够独立完成跨平台应用开发\n5、具备良好的沟通能力和团队协作精神，能够承受一定的工作压力",
+      "source_url": "https://www.zhipin.com/job_detail/401dc400320e4d500nF43Nm_EVBV.html"
+    },
+    {
+      "company": "BOSS直聘",
+      "position": "前端开发工程师",
+      "tier": "big_core",
+      "tech_direction": "前端",
+      "requirements": "岗位职责：\n主要参与BOSS直聘相关业务的开发。\n任职要求：\n1、系统学习并掌握 HTML/CSS/JavaScript等前端技术，对Vue或React有实际项目的使用经验；\n2、有良好的产品意识、交互体验意识、沟通意识、团队合作意识，能够超预期完成项目；\n3、具备不错的代码组织、规划能力，有良好的审美；\n4、具有优秀的职业常识和价值观。",
+      "source_url": "https://www.zhipin.com/job_detail/a14a68e21c67c49903N-0ti7EVNZ.html"
+    },
+    {
+      "company": "北京原点智学教育科技",
+      "position": "全栈开发",
+      "tier": "startup",
+      "tech_direction": "全栈",
+      "requirements": "AI教育小程序全栈开发实习｜远程可留用\n\n我们是清北哈佛背景初创AI教育团队，专注9-16岁青少年自研AI学习产品，汇聚名校导师、一线教师与资深AI⼯程师，项⽬处于⾼速发展期，现招募技术伙伴，全程参与AI教育小程序从0到1搭建、迭代与落地！\n\n岗位职责\n\n独立负责⼩程序前后端开发，完成页面搭建、交互适配、功能调试与性能优化；自主设计数据库、搭建后端业务逻辑，开发联调课程、用户、学习数据、订单权限等核心模块。对接AI大模型接口，实现智能答疑、测评批改、个性化学习报告等核心教育功能。参与后台管理系统开发，支撑课程上架、用户运维、数据统计等运营需求，持续修复bug、优化产品体验，全程深度参与产品体系搭建。\n\n任职要求\n\n熟练原生小程序、UniApp、Taro任一框架，掌握JS、Vue及组件封装、分包优化等技能；精通Python、Java、Node.js任一技术栈，熟悉MySQL，可独立完成接口开发联调。了解微信授权、支付、消息推送等官方功能，具备前后端联调、性能优化能力，有小程序开发案例、教育类项目经验者优先。学习能力强、责任心足，可全职长期远程实习。\n\n薪资福利\n日薪250元，叠加流量增长、用户转化绩效奖金，上不封顶\n纯远程办公，扁平化初创团队\n核心岗位实操，无打杂工作，全程参与产品从零搭建\n表现优异可直接留用，共享项目发展红利",
+      "source_url": "https://www.zhipin.com/job_detail/468680b9d43eed980nF52t-8GVpS.html"
+    },
+    {
+      "company": "快手",
+      "position": "AI全栈开发实习生（海外业务）",
+      "tier": "big_core",
+      "tech_direction": "全栈",
+      "requirements": "职位描述\n1、借助AI编程工具，打破前端、后端、客户端的传统分工边界，端到端参与产品功能的开发与迭代——覆盖数据层、服务端到Web与移动端各层，在真实项目中全面打磨技术栈；\n2、深度使⽤AI编程⼯具，⼤幅提升开发效率，把精力从重复编码转向架构设计与业务价值实现，快速验证想法、推动功能高效迭代与落地；\n3、⾯向真实业务场景解决问题：提升核心业务指标、改进系统性能、保障线上稳定性，产出直接运行于生产环境、服务真实用户；\n4、在编码、重构、Bug排查等高频环节中持续把AI工具用作常规起点，拥有\"先复核、再采用\"的习惯。\n任职要求\n1、计算机科学、软件工程、人工智能等相关专业优先；\n2、熟悉至少一门编程语言（如Java/Go/Python/Kotlin/Swift/TypeScript等），具备扎实编程基础，了解常见数据结构与算法，能独立完成代码编写与调试；\n3、习惯将AI编程工具作为日常编码的默认起点，用于代码生成、重构、Bug排查等高频场景；能对AI产出做基础复核（能跑通、能发现明显错误），并愿意持续提升对代码质量与工作流的判断力；\n4、在后端、Web前端、安卓客户端、iOS客户端任一「端」具备基础、有相关开发实践，并愿意借助AI工具拓展到其他端。\n\n加分项：\n1、有AI相关项目、开源贡献或互联网公司实习经历；\n2、具备跨学科思维，能将AI/工程能力与其他领域知识结合，产出创新应用。",
+      "source_url": "https://www.zhipin.com/job_detail/7c108c3d16a2633c0nBz2Nu5FVNW.html"
+    },
+    {
+      "company": "字节跳动",
+      "position": "AI全栈开发实习生",
+      "tier": "big_core",
+      "tech_direction": "全栈",
+      "requirements": "职位描述\n团队介绍：抖音研发部门负责多款大型产品的研发，包括但不限于抖音、西瓜视频、汽⽔⾳乐。加⼊我们，你将有机会参与亿级用户场景的开发与架构工作，使⽤前沿的技术助力业务一起不断成长。\n\n1、负责抖音等产品的前后端业务迭代与技术开发工作，包括B端平台及C端产品；\n2、利用 AI 辅助快速实现原型-前后端-终端落地的全流程闭环，不限技术栈；\n3、设计面向 AI 的研发范式，高效优化工程性能，提升研发质量与效率，完善用户体验。\n职位要求\n职位要求\n1、2027届本科及以上学历在读，计算机、软件工程等相关专业优先；\n2、具备良好的计算机基础，熟悉常用的数据结构和算法、计算机操作系统，并熟练使用至少一门编程语言(JavaScript/TypeScript/Python/C++/Golang)完成代码编写；\n3、具备强技术自驱力，乐于探索 AI 相关技术，能不断利用 AI 工具拓宽个人能力边界；\n4、具有一定前后端项目经验者优先，如：使用Vue/React等前端框架具备Web项目开发经验的同学；\n5、积极乐观，责任心强，具备良好的沟通协作能力、逻辑思维能力以及服务意识。",
+      "source_url": "https://www.zhipin.com/job_detail/b5f9adc5faf7bdf00nF429-1GVtV.html"
+    },
+    {
+      "company": "北京咖值电影科技",
+      "position": "全栈开发工程师",
+      "tier": "startup",
+      "tech_direction": "全栈",
+      "requirements": "岗位职责：  \n1、负责公司Web应用及内部系统的全栈开发与持续优化；  \n2、独立完成前端页面构建与后端服务接口开发，保障系统高效协同；  \n3、参与产品需求分析，设计合理的技术架构并推动落地实施；  \n4、配合团队完成系统部署、调试及线上问题排查与维护；  \n\n任职要求：  \n1、具备扎实的前后端开发能⼒，熟悉主流开发框架和技术栈；  \n2、能够熟练操作数据库，完成数据建模与SQL编写；  \n3、掌握常⽤版本控制⼯具，具备良好的代码管理习惯；  \n4、具备较强的问题定位与解决能力，能独立承担开发任务；\n5、实习⽣要求实习签约时间达到六个月以上；\n\n工作条件：\n1、作息时间：早上九点上班，晚上六点下班，午休一小时；\n2、每周工作五天，双休，其他按国家法定节假日休息；\n3、经审核通过可有条件提供食宿支持；",
+      "source_url": "https://www.zhipin.com/job_detail/e75af5ba401b7e070nBz0t-4GFFY.html"
+    },
+    {
+      "company": "中科院自动化所",
+      "position": "大模型应用系统python全栈开发实习生",
+      "tier": "mid",
+      "tech_direction": "全栈",
+      "requirements": "【岗位职责】\n1.python栈后端：熟悉Flask、FastAPI等后端服务与RESTful API，可搭建Django等后端框架。\n2.前端：使用vibe coding快速完成Web前端页面开发，熟悉HTML、CSS、JavaScript及React等主流框架。\n3.智能算法集成：熟悉深度学习、规划算法、评估算法原理，设计调用流程，完成多模态深度学习模型及大模型调⽤到服务化的⼯程实现（API封装、系统集成、上线）。\n4.数据⾤集：基于ROS、DDS等协议从仿真系统、实验样机及通信总线中采集数据。\n5.数据库与中间件建设：熟悉达梦或MySQL数据库，掌握Elasticsearch、Redis、RabbitMQ等中间件。\n6.容器化与云原生实践：基于Kubernetes实现docker容器编排与微服务治理。\n7.可视化编排：理解业务逻辑，熟悉低代码可视化编排⼯具，进行智能体工作流、工作任务编排、行为树编排、算法组合编排、指标可视化编辑。\n8.可视化面板：基于Echart等可视化组件，构建态势大屏和多维数据看板，集成评估模型，进行智能算法工作的可解释性深入解析。\n9.AI能力：熟悉LangChain、LlamaIndex、知识图谱RAG等工具，完成前后端与大模型的整体联调，算力受限条件下根据性能需求选型大模型进行微调与多模态处理（语音、文本、图像）。\n【岗位要求】\n1.人工智能、计算机、软件工程、统计学、应用数学、数据科学等相关专业本科以上学历；\n2.具备扎实的后端实践经验，熟悉智能算法调用流程设计、API封装、集成、数据引接、docker部署；\n3.具备丰富的大模型实践经验，熟悉微调、RAG、Agent、Skill、工作流等技术流程，了解业界前沿大模型算法，有独立实现模型优化方案的经验；\n4.熟练使用AI编程工具和openclaw进行快速开发和业务部署；\n5.具备良好的业务洞察和问题拆解能力，与客户良好的沟通能力，能够将模糊的业务需求转化为清晰的技术方案；\n6.对技术有极客般的追求，喜欢钻研最新论文和技术博客，有较强的自学能力、动手能力和文档撰写能力；\n7.具备良好的沟通协作能力、抗压能力与创新思维，能在复杂业务场景中推动技术突破，为业务带来可量化的价值增量。",
+      "source_url": "https://www.zhipin.com/job_detail/f13fde53cb449de60nB_39W9GVpR.html"
+    },
+    {
+      "company": "转转集团",
+      "position": "AI全栈开发实习生 J14605",
+      "tier": "big_edge",
+      "tech_direction": "全栈",
+      "requirements": "我们希望你：爱学习、善沟通、有责任心，能在指导下快速成长。可立即到岗，稳定实习6个月以上，每周5天，表现优异可转正\n业务方向：电商履约\n任职要求：\n1、后端（基础扎实）\n- 熟悉 Java 基础，了解集合、多线程、IO 等常⽤ API；对 JVM、GC 有初步认识。\n- 熟悉 MySQL、Redis 基本使⽤，能看懂慢查询⽇志并做简单优化。\n- 了解 Spring、MyBatis 等框架的基本原理，有实际项目使用经验。\n- 了解分布式、微服务、消息队列等概念，有简单实践更佳。\n- 具备基本的业务建模能⼒，逻辑清晰，能独立完成中小型模块设计。\n2、前端（能写页面）\n- 掌握 HTML/CSS/JS，能使用 Vue 或 React 完成简单的业务页面开发。\n- 了解 Webpack/Vite 等构建工具，了解跨域、鉴权、XSS/CSRF 等基础安全知识。\n3、加分项（不强制）\n- 有 AI 辅助编程或大模型应用的小型实践。\n- 了解分布式事务、限流降级、幂等设计等概念。\n- 了解分库分表、读写分离的基本原理。\n- 前端理解响应式、虚拟 DOM 等核心概念，或有工程化优化经验。\n- 有 H5、小程序适配开发经历。\n- 研读过开源项目源码或有自己的技术博客/GitHub 项目。",
+      "source_url": "https://www.zhipin.com/job_detail/59c360d5aaaaebba0nF409i4FlJQ.html"
+    },
+    {
+      "company": "铭思软件",
+      "position": "全栈开发-ai",
+      "tier": "mid",
+      "tech_direction": "全栈",
+      "requirements": "1\t学历要求：专科以上学历，计算机科学与技术、软件工程、人工智能、电子信息等相关专业；\n\t2\t经验要求：必须具备 3 年及以上开发相关⼯作经验，有 AI + 全栈项⽬开发经验者优先；\n\t3\t后端技术要求：精通 Java 开发语⾔，熟练掌握 SpringBoot、SpringCloud 等主流 Java 后端框架，具备扎实的 Java 基础与面向对象编程思想；\n\t4\t数据库要求：熟练掌握关系数据库、时序数据库的使用，具备独⽴数据库表设计、复杂 SQL 编写、索引优化、数据处理能力；\n\t5\t前端技术要求：精通 HTML5、CSS3、原生 JavaScript，熟练使用 Vue2/Vue3 前端框架，掌握前端工程化、模块化开发，熟悉前端交互逻辑实现与页面适配；\n\t6\tAI 开发核心要求：必须熟悉 AI 开发全流程，熟练掌握主流大模型（如文心一言、通义千问等）的调用、二次开发及业务场景集成能力，具备 AI 功能落地开发经验；\n\t7\t全栈能力：具备完整的全栈开发能力，可独立完成前后端联调、接口对接，能独立承担模块开发任务；\n\t8\t其他能力：具备良好的代码规范与编程习惯，逻辑思维清晰，有较强的问题排查、解决能力，具备良好的团队协作精神与沟通能力，能够快速理解业务需求。",
+      "source_url": "https://www.zhipin.com/job_detail/2231c0663e3f42d60nF63ti0GFZX.html"
+    },
+    {
+      "company": "银河驿站",
+      "position": "全栈开发",
+      "tier": "startup",
+      "tech_direction": "全栈",
+      "requirements": "岗位职责:  \n1. 负责Web前端与后端系统的开发与维护，独立完成全栈功能实现  \n2. 参与产品技术架构设计，支持高可用、可扩展的系统建设  \n3. 快速构建产品原型并推动迭代，⽀撑业务快速验证与落地  \n4. 协同团队完成技术⽅案评审与代码质量管控  \n\n任职要求：  \n1. 具备扎实的编程基础，熟悉主流前后端技术栈  \n2. 能够独⽴完成从需求到部署的全流程开发工作  \n3. 熟悉常见数据库设计与Web服务开发，具备系统调优能力  \n4. 具备良好的逻辑思维和问题解决能⼒，适应高强度迭代节奏",
+      "source_url": "https://www.zhipin.com/job_detail/58b9caaf9290e74c0nB_09i-FFNQ.html"
+    },
+    {
+      "company": "歪果仁",
+      "position": "全栈开发实习生",
+      "tier": "startup",
+      "tech_direction": "全栈",
+      "requirements": "[岗位职责]\n1.公司业务后台和脚本工具的前后端开发\n2.AI应用开发(工作流、Agent、Skill等)\n3.数据处理统计及数据库相关业务开发\n\n[岗位要求]\n1.熟练掌握MySQL和至少一门后端脚本语言（Node.js/Python/Typescript）\n2.掌握至少一个前端框架（Vue/React），能快速搭建前端页面\n3.工作细心负责，自驱好学，乐于沟通\n4.有丰富的AI使用和AI应用开发经验者优先",
+      "source_url": "https://www.zhipin.com/job_detail/ba672d053501befb03By2dW0FldV.html"
+    },
+    {
+      "company": "减龄",
+      "position": "全栈开发实习生（可转正）",
+      "tier": "startup",
+      "tech_direction": "全栈",
+      "requirements": "岗位职责：\n1.  AI 驱动极速交付： 深度利用 AI 编程工具（ Cursor / Claude Code ），驱动 90% 以上的代码生成，负责从前端 UI 到后端逻辑的快速迭代与功能实现。\n2. 全栈架构设计： 参与生产级系统的架构规划（ Next.js + FastAPI + PostgreSQL ），对 AI ⽣成的代码进⾏精密审计，确保系统的⾼安全性、高可用性与⾼性能。\n3. 核心逻辑攻关： 负责处理 AI 无法解决的 5% 核心业务逻辑及底层性能调优，解决高并发下的数据一致性、复杂鉴权及安全漏洞。\n4.  DevOps 与自动化： 构建并维护基于 Docker / K8s 的 CI / CD 流水线，利用 AI 优化部署、监控与日志分析流程。\n5. 技术前瞻调研： 持续探索 AI 编程领域的前沿工具与方法论，优化内部开发流程，提升团队整体交付效能。\n任职要求：\n1.  AI 原生思维： 精通 Prompt Engineering ，有利用 Cursor / Claude / v0 等工具快速构建并上线完整产品的实战经验，相信 AI 改变开发效率。\n2. 全栈技术储备： 熟练使用 Next.js 14 ( App Router )、 React 、Tailwind CSS ；熟悉 Python ( FastAPI ) 或 Node.js ( NestJS )；掌握 PostgreSQL 设计与优化。\n3. 极强审计与 Debug 能力： 能够快速识破 AI 的幻觉逻辑，具备扎实的计算机底层知识，能对 AI 生成的代码进行高质量 Review 和问题定位。\n4. 在校生优先，热爱计算机科学和互联网技术。\n5. 极客精神与自驱： 对新技术有狂热好奇心，追求极致的代码质量与交付速度，能独立负责从需求对齐到上线交付的全链路工作。",
+      "source_url": "https://www.zhipin.com/job_detail/a60a32fac47d77e70nd83d60FFJY.html"
+    },
+    {
+      "company": "几阶智能",
+      "position": "全栈开发工程师实习生",
+      "tier": "startup",
+      "tech_direction": "全栈",
+      "requirements": "| 初创团队，邀你一起搞事！\n我们是一家高速成长的初创公司，正聚焦“票务细分市场的效率（社交）电商”赛道全力冲刺。现急需⼀名敢想敢⼲、能扛能造的全栈开发实习⽣，和我们并肩作战，把创意落地成实实在在的产品！\n\n与我们并肩，重新定义文化（票务）垂类社交电商新范式！\n\n工作地点：北京\n实习薪资：200-400元/天\n \n \n岗位职责\n \n1. 深度参与产品从0到1的开发全过程，负责前后端功能模块的编码、测试与迭代优化。\n​\n2. 配合产品和设计团队，将需求转化为可执⾏的技术方案，解决开发中的各类技术难题。\n​\n3. 主动探索前沿技术框架与工具，为团队技术选型提供建议，提升开发效率和产品性能。\n​\n4. 负责撰写简洁清晰的技术文档，参与团队内部技术分享，和小伙伴一起打怪升级。\n \n任职要求\n \n1. 在读本科及以上学历，计算机、软件工程等相关专业优先，有个人项目或小型创业项目经验者加分。\n​\n2. 掌握 HTML/CSS/JavaScript 前端基础，至少精通一种前端框架（React/Vue/Angular），能独立完成页面开发。\n​\n3. 熟悉至少一种后端语言（Python/Go/Node.js/Java）及对应框架，具备数据库（MySQL/MongoDB/Redis）设计与操作能力。\n\n4.数据库操作：熟悉MySQL/PostgreSQL等关系型数据库，了解基本的数据库设计和优化\n​\n5. 具备较强的自学能力和问题解决能力，面对未知领域敢于尝试，有较强的责任心和团队协作精神。\n​\n6. 认可初创公司的节奏，能接受弹性工作，愿意为产品的成功投入额外精力。\n \n我们能提供\n \n1. 核心业务实战机会：不是打杂！你将直接参与核心功能开发，你的每一行代码都能影响产品走向。\n​\n2. 扁平高效的工作氛围：没有繁琐的层级汇报，想法可以直接提，方案可以直接聊，你的声音会被认真倾听。\n​\n3. 全链路成长空间：从需求分析到上线运维，你能接触产品开发的完整流程，快速积累全栈工程师必备的综合能力。\n​\n4. 灵活的激励机制：带薪实习+绩效奖金+节日福利，表现优异者可获得转正offer+项目期权激励。\n​\n5. 超nice的团队配置：团队成员均来自一线互联网公司或创业团队，经验丰富又乐于分享，日常奶茶咖啡管够！\n\n初创公司的舞台，没有天花板！期待和你一起，把小想法变成大事业！",
+      "source_url": "https://www.zhipin.com/job_detail/b789f84e45fd238c0nZ70tS9GFBY.html"
+    },
+    {
+      "company": "互联星河",
+      "position": "全栈开发",
+      "tier": "startup",
+      "tech_direction": "全栈",
+      "requirements": "岗位职责：\n1. 负责产品全栈功能模块的设计、开发与实现；\n2. 参与技术方案选型与系统架构设计，保障系统性能与稳定性；\n3. 编写高质量、可维护的代码，并协同团队完成测试与部署；\n4. 持续优化产品体验，跟进并解决开发过程中的技术问题。\n5. 使用AI完成领导部署的各项工作。\n\n任职要求：\n1. 熟练掌握前后端主流开发语⾔及相关技术框架；\n2. 熟悉数据库设计及常⽤数据交互与接口开发；\n3. 具备良好的系统思维、逻辑分析能⼒和自主学习能力；\n4. 拥有团队协作精神，能积极沟通并推动项⽬进展。\n5. 熟练使用各项AI工具，拥有主动探索新技术的精神。\n6. 使用过ChatGPT，搭建过OpenClaw的优先录",
+      "source_url": "https://www.zhipin.com/job_detail/be6ab5f2b6516ef20nF43dy8FlpT.html"
+    },
+    {
+      "company": "北京迎朋乐哉信息技术",
+      "position": "初级全栈开发工程师",
+      "tier": "startup",
+      "tech_direction": "全栈",
+      "requirements": "岗位职责:\n1.可独立完成全栈开发项目，负责前后端的设计与开发工作；\n2.协助团队成员解决技术难题；\n3. 持续改进开发流程和方法，提升开发效率。\n\n任职要求：\n1.具有良好的编程习惯和解决问题的能⼒；\n2.有实际开发经验者优先；\n3.具备良好的团队合作能⼒和沟通技巧；\n4.具有较强的⾃我驱动力和学习能力；\n5.对新技术有持续学习的意愿和能⼒。",
+      "source_url": "https://www.zhipin.com/job_detail/28d105edd8ffb1b903183du4E1ZY.html"
+    },
+    {
+      "company": "字节跳动",
+      "position": "成都字节 - AI 全栈开发工程师（偏前端）",
+      "tier": "big_core",
+      "tech_direction": "全栈",
+      "requirements": "实习可转正也有日常实习岗位！\n\n1. 参与生活服务-达人撮合业务领域的相关产品研发\n2. 能够善用AI辅助编程，具备AI全栈化能⼒  \n3. base地可选成都或者杭州\n4. 团队技术氛围浓厚、成长空间拉满！\n\n负责抖⾳⽣活服务达人 & 撮合核心产品建设，深耕商家达⼈服务商机构多方生态链路，聚焦商家推广种草、达人流量变现，搭建高效智能的商撮合匹配体系，输出行业领先的达人营销全链路解决方案，实现多方共赢，助力用户高效解锁高性价比吃喝玩乐生活服务，赋能实体经济增长。",
+      "source_url": "https://www.zhipin.com/job_detail/3e3e4d37ec1b1a650nB-2du0FVdY.html"
+    },
+    {
+      "company": "北京冰迅智能科技",
+      "position": "爬虫/数据工程师",
+      "tier": "startup",
+      "tech_direction": "数据",
+      "requirements": "岗位职责：\n- 数据采集： 负责互联网公开数据（图片、文本、视频）的定向抓取，应对各种反爬策略。\n- 数据清洗与⼊库： 对抓取的⾮结构化数据进⾏清洗、去重、格式化，为 AI 模型训练和内容生产提供高质量数据。\n- 系统维护： 维护分布式爬⾍系统的稳定性，提升抓取效率和成功率。\n任职要求：\n- 熟练掌握 Python，熟悉 requests、Scrapy 等爬虫框架。\n- 熟悉自动化测试工具（Selenium/Playwright/Puppeteer/DrissionPage）的使用。\n- 熟悉常见的反爬手段（验证码、IP 限制、JS 混淆等）及应对策略。\n- 熟悉 MySQL/MongoDB/Redis 等数据库的基本操作。\n- 熟练掌握 JS 逆向基本方法，熟悉 Chrome DevTools / Fiddler / Charles 抓包与调试，能独立还原接口签名逻辑\n- 熟悉 HTTP/HTTPS、Cookie/Session、常见鉴权机制，具备抓包分析能力\n- 熟悉多平台采集任务调度设计，能够基于任务队列实现分平台、分优先级、分频控的并发抓取，支持失败重试、断点续跑与任务状态管理。\n- 支持 多平台数据并行清洗与入库，具备 T+1 日批产能保障能力：任务分片并行、限流重试、断点续跑、幂等去重与监控告警，确保数据在 24 小时内完成交付。\n加分项：\n- 有逆向工程（JS逆向/APP 逆向/客户端逆向）经验者优先。\n- 有大规模分布式爬虫开发经验者优先。",
+      "source_url": "https://www.zhipin.com/job_detail/d2c02ee6bc37634b0nV629i0GVpX.html"
+    },
+    {
+      "company": "北京冠邦达",
+      "position": "座椅数据工程师",
+      "tier": "startup",
+      "tech_direction": "数据",
+      "requirements": "岗位职责：\n1、根据项目需求对标现款车型、竞品车型相关座椅参数及功能；                                 \n2、根据DRE要求进行工程方案可行性分析；                                                                    \n3、试制阶段座椅装车过程中问题反馈与追踪；\n4、跨部门沟通、协调资源，尤其试制装车和样件评审期间；                                            \n5、负责开发过程中数据冻结和变更流程发布 \n任职要求：\n1、具备汽车座椅设计行业5年以上工作经验；\n2、服从管理，接受长时间跟踪试制车间装车。",
+      "source_url": "https://www.zhipin.com/job_detail/18faa37c5eb25e821H1429W6GFdY.html"
+    },
+    {
+      "company": "博挚汽车",
+      "position": "内外饰设计数据工程师",
+      "tier": "mid",
+      "tech_direction": "数据",
+      "requirements": "岗位职责：\n1.熟练应用CATIA,可高效完成保险杠、挡流板、背门饰板、侧裙、门下饰板、激光雷达装饰板等外饰件的断面制作,3D数据制作,CAS校核,2D图纸绘制等工作:\n2,根据⼯程师需求,快速进⾏数据设计成果转换,完成⽅案数据的制作与修改;\n3.熟练使用基础office软件辅助工程师依据模板迅速的完成⽂档类交付物的制作:\n职位要求\n1.全日制大专或以上学历,车辆工程、机械等工程类相关专业;\n2.3年以上,外饰零件数据开发经验,具有1个以上车型完整项目数据开发经验;\n3.熟练掌握CATIA等设计相关软件,能够制作3D和2D数据,能够熟练运用office办公软件;\n4.熟悉产品模具、检具知识;\n5.良好的团队合作精神,严密的逻辑思维能力,较强的责任心以及高效沟通能力。",
+      "source_url": "https://www.zhipin.com/job_detail/791b3599a362674b0nF42Ny0FlFS.html"
+    },
+    {
+      "company": "四川人瑞",
+      "position": "热管理数据工程师",
+      "tier": "mid",
+      "tech_direction": "数据",
+      "requirements": "岗位职责\n1、负责冷却管路、空调管路及热管理其他部件、支架的数模绘制及数据校核与更改工作\n2、协助DRE支持 骡车、EP1、EP2阶段的造车工作\n3、协助DRE跟踪验证过程中的换件⼯作\n职位要求\n1.熟练使⽤catia软件，teamcenter使⽤\n2.整车热管理部件开发经验充足，高效沟通能⼒，对整车热管理部件及布置认识清晰\n3.吃苦耐劳，有较强的沟通能力，能够积极主动与总布置和周边专业沟通拉动布置等问题的推进",
+      "source_url": "https://www.zhipin.com/job_detail/0d2f03539162858b0nF709W6GVZX.html"
+    },
+    {
+      "company": "北京某大型智能硬件上市公司",
+      "position": "数字模型师/设计数据工程师【造型设计】",
+      "tier": "big_core",
+      "tech_direction": "数据",
+      "requirements": "岗位职责（以下为三个岗位）：\n1、使用Blender、Alias（Sbud)等技能，支持数据前瞻工作探索\n2、使用Blender、Alias⽀持设计师初期⽅案探索，以及油泥模型加⼯\n\n1、负责外饰造型方案数据修改\n2、负责CFD造型风阻数据方案修改\n3、负责外饰灯具、后视镜、轮毂等零部件数据设计⼯作\n4、负责工程问题方案修改满足工程实现要求\n\n1、负责内饰全仓数字模型设计工作\n2、对内饰零部件有充分了解、IP、门板、console等零部件\n3、负责内饰IP、门板、座椅、console、顶棚、立柱等零部件的设计工作\n4、掌握内饰零部件之间的配合关系，并完整表达设计意图。\n任职要求：\n1、大专及以上学历，艺术设计、工业设计相关专业 2、熟练使用Blender ALIAS软件 3、 测试A级至少5-8年实际CAS、A面设计工作经验 测试B级至少3-5年CAS、A面设计工作经验 4、善于团队合作、有责任心、敢于担当、工作主动积极",
+      "source_url": "https://www.zhipin.com/job_detail/dcc62b9a87bd6d870nd-29y-GFNQ.html"
+    },
+    {
+      "company": "曼孚科技",
+      "position": "初级大模型数据工程师",
+      "tier": "mid",
+      "tech_direction": "数据",
+      "requirements": "岗位描述：\n我们正在招聘一名具备一定经验基础的大模型数据工程师，参与各类模型训练数据集与评测集的构建⼯作。该岗位⾯向⼀线数据工程实践，要求候选人能够深⼊理解模型训练或评测目标，围绕实际业务需求完成数据探索、标准设计、数据合成、清洗校验、质量评估与迭代优化，推动高质量数据集从方案设计走向可执行、可验证、可交付的完整闭环。\n\n你将与多方密切配合沟通协作，在掌握数据生产方法的基础上，逐步独立负责项目中的数据合成、质检与评测工作，为客户模型效果提升提供高质量的数据支撑。\n\n岗位职责：\n1. 理解客户或内部模型的需求，拆解训练目标或评测目标，并转化为可执行的数据任务、数据标准和样本框架。\n2. 参与训练数据集或评测集建设，完成数据合成、清洗、校验、抽样、分析和迭代优化等工作。\n3. 设计并维护数据质检规则、评测集和评测流程，持续验证数据质量与模型效果之间的关系。\n4. 编写脚本或搭建轻量化工具链，提升数据生产、质量控制和评测分析的效率。\n5. 与团队协作配合，跟进数据交付质量，推动项目按标准落地。\n岗位要求：\n1. 本科及以上学历，计算机、人工智能、软件工程、数学、统计学等相关专业优先。\n2. 具备扎实的工程基础，熟练使用 Python 进行数据处理、脚本开发或流程工具搭建（或其他语言具有深厚的项目经验），能够独立解决实际问题。\n3. 至少具备以下一个或多个方向的实际经验：\n  - Context Engineering\n  - Harness Engineering\n  - Loop Engineering\n4. 理解模型训练与评测的基本逻辑，能够从模型目标反推数据设计，并根据评测结果持续优化数据方案。\n5. 具备大模型训练数据集或评测集构建基础经验，理解数据标准设计、数据质量控制和评测闭环的基本方法。\n6. 具备较强的动手能力，能够围绕实际任务完成数据合成、清洗、校验、抽样、分析等工作，而不只是停留在概念层面。\n7. 具备良好的学习能力、问题拆解能力和跨团队协作能力，能够在陌生领域中快速建立认知并推进落地。\n8. 极客精神与目标导向： 核心能力是\"定义问题 → 寻找工具 → 快速闭环\"，在模糊需求中能主动破局。\n优先条件：\n1. 有 SFT、RL 等模型训练相关实践经验，理解训练数据对模型行为和效果的具体影响。\n2. 有模型评测经验，参与过 Benchmark、Eval Pipeline 或自动化评测体系的设计与维护。\n3. 有复杂领域数据集构建经验，如代码、多模态、数学推理或垂直行业任务。\n4. 有数据合成、自动化清洗、规则校验或验证管线搭建经验。\n5. 有与供应商或跨团队协作推进数据交付的实际经验。\n我们希望你：\n1. 不只是会使用各类 AI 工具，而是真正理解数据、评测与模型能力之间的关系。\n2. 不只是能讨论方法论，而是能够亲自下场，把数据方案落实为可执行、可交付的工程结果。\n3. 对大模型训练、评测和数据生产保持持续关注，愿意在复杂问题中快速学习、持续迭代。\n\n为什么值得来\n工具和资源层面，你将进入真正的一线工作环境：\n- SOTA模型无限使用：Claude、GPT、Gemini等主流前沿大模型不限量调用，没有配额焦虑，让你把精力放在工作上，而不是省 Token\n- 顶级算力支持：H200、B300 等旗舰级 GPU 资源按需使用，你的实验和验证不会因为算力卡脖子\n- 真实项目接触顶级客户：你将直接面对最前沿 AI 研究团队的真实数据需求，不是复制粘贴流水线，而是真正在定义数据的边界\n工作方式层面，你将有真实的自主空间：\n- 有项目时专注交付：清晰的目标和资源，带队做出真实的数据资产\n- 没项目时主动研究：不需要假装忙，可以真正花时间研究你感兴趣的 AI 方向\n- 影响真实模型训练：你设计的数据方案，最终会进入真实的模型训练和对齐流程，而不是在沙箱里自嗨\n\n说明： 本岗位重点关注大模型训练 / 对齐 / 评测相关的数据方案与交付能力。若经验主要集中在 RAG、知识库搭建、Prompt 应用、传统数据分析等方向，而缺乏训练数据设计或复杂数据项目交付经验，可能与本岗位匹配度有限。",
+      "source_url": "https://www.zhipin.com/job_detail/3bd8bda89227b2540nF43ti4F1pZ.html"
+    },
+    {
+      "company": "亚马逊中国",
+      "position": "数据工程师 -1年合同正式员工",
+      "tier": "big_core",
+      "tech_direction": "数据",
+      "requirements": "External job description\nAmazon ARTS team is seeking for a contractor  Data Engineer of deep expertise in creation and management of datasets. The role is responsible to build data analytical solutions that will address increasingly complex business questions, as an expert at implementing and operating stable, scalable data flow solutions from production systems into end-user facing applications/reports; working on developing solutions that provide some of the unique challenges of space, size and speed; implementing data analytics using cutting edge analytics patterns and technologies that are inclusive of but not limited to various AWS Offerings –Redshift, S3 and RDS.; working with partner teams to create dashboards for our customers. \nInternal job description\nAre you interested in rapidly growing business? The Amazon ARTS team is responsible for creating core analytics tech capabilities and data engineering. It comprises of platforms development, research science, and data engineering. ARTS develops scalable analytics applications and research modeling to optimize operation processes. The team standardizes and optimizes data sources and visualization efforts across geographies, builds up and maintains the online BI services and data mart.\nAt ARTS, Data engineers, data scientists, business intelligence engineers and product managers use rigorous quantitative approaches to ensure that we target to provide high quality data tech products to our customers around the world, including India, Australia, Brazil, Mexico, Singapore and MENA.\nAs a Data Engineer you will be working in one of the world's largest and most complex data warehouse environments. You are expected being passionate about working with huge data sets and be someone who loves to bring datasets together to create dashboards and answer business questions. You are required to have deep expertise in creation and management of datasets. You will build data analytical solutions that will address increasingly complex business questions. You should be expert at implementing and operating stable, scalable data flow solutions from production systems into end-user facing applications/reports. These solutions will be fault tolerant, self-healing and adaptive. \n\nYou will be working on developing solutions that provide some of the unique challenges of space, size and speed. You will implement data analytics using cutting edge analytics patterns and technologies that are inclusive of but not limited to various AWS Offerings –Redshift, S3 and RDS. You will work with partner teams to create dashboards for our customers. You are required to be detail-oriented and must have an aptitude for solving unstructured problems, and working in a self-directed environment, own tasks and drive them to completion. \nYou are required to have excellent business and communication skills to be able to work with business owners to develop and define key business questions and to build data sets that answer those questions. You will own customer relationship about data and execute tasks that are manifestations of such ownership, like ensuring high data availability, low latency, documenting data details and transformations and handling user notifications and training. \n\n\nLoop competencies\n--\nBasic qualifications\n\n    1+ years of data engineering experience\n    Experience with data modeling, warehousing and building ETL pipelines\n    Experience with one or more query language (e.g., SQL, PL/SQL, DDL, MDX, HiveQL, SparkSQL, Scala)\n    Experience with one or more scripting language (e.g., Python, KornShell)\n\nPreferred qualifications\n\n    Experience with big data technologies such as: Hadoop, Hive, Spark, EMR\n    Experience with any ETL tool like, Informatica, ODI, SSIS, BODI, Datastage, etc.\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit <a href=\"https://amazon.jobs/content/en/how-we-hire/accommodations\">https://amazon.jobs/content/en/how-we-hire/accommodations</a> for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.",
+      "source_url": "https://www.zhipin.com/job_detail/825a82e3113187af0nB72965EFRW.html"
+    },
+    {
+      "company": "柯莱特集团",
+      "position": "底盘悬架数据工程师",
+      "tier": "big_edge",
+      "tech_direction": "数据",
+      "requirements": "职位描述\n1. CATIA软件操作，对3D建模，2D出图，整车装置装配，DMU建模，校核；\n2. 零部件开发技术⽂件编制，包括但不限于BOM，技术要求，系统爆炸图等；\n3. 零部件管理，包括SOR等技术⽂件编制，TR交流，供应商其他技术交流等。\n职位要求\n1. 熟练CATIA软件操作，对3D建模，2D出图，整车装置装配，DMU建模，校核；\n2. 熟练CATIA参数化设计⽅法；\n3. 熟悉零部件开发，制造工艺，包括但不限于副车架，转向节，冲压件，铸造件等白匣⼦件；\n4. 熟悉零部件开发技术文件编制，包括但不限于BOM，技术要求，系统爆炸图\n5.有5年或以上设计公司或者外协工作经历。",
+      "source_url": "https://www.zhipin.com/job_detail/382c4e0bc3e876a90nF62NW9F1VU.html"
+    },
+    {
+      "company": "拓保软件",
+      "position": "底盘数据工程师（悬架）",
+      "tier": "mid",
+      "tech_direction": "数据",
+      "requirements": "岗位职责：\n1. CATIA软件操作，对3D建模，2D出图，整车装置装配，DMU建模，校核；\n2. 零部件开发技术⽂件编制，包括但不限于BOM，技术要求，系统爆炸图等；\n3. 零部件管理，包括SOR等技术⽂件编制，TR交流，供应商其他技术交流等。\n任职要求：\n1. 熟练CATIA软件操作，对3D建模，2D出图，整车装置装配，DMU建模，校核；\n2. 熟练CATIA参数化设计⽅法；\n3. 熟悉零部件开发，制造工艺，包括但不限于副车架，转向节，冲压件，铸造件等白匣⼦件；\n4. 熟悉零部件开发技术文件编制，包括但不限于BOM，技术要求，系统爆炸图\n5.有5年或以上设计公司或者外协工作经历。",
+      "source_url": "https://www.zhipin.com/job_detail/b638cab6260751570nF40t29E1FZ.html"
+    },
+    {
+      "company": "新兴日祥",
+      "position": "数据工程师",
+      "tier": "mid",
+      "tech_direction": "数据",
+      "requirements": "岗位工作内容：主要负责获取、整理、处理和维护数据，为企业决策、产品优化或人工智能训练提供基础支持。具体⼯作内容因⾏业和岗位要求⽽异，常见职责包括：\n \n1. 数据采集与录入：运⽤硬件设备（如传感器）、软件系统（如爬虫）或手动方式，收集产品数据、网络信息、用户行为等原始数据，并整理录入数据库。\n\n2. 数据清洗与校验：处理采集到的数据，去除错误、重复内容，确保数据准确性、规范性和有效性，建立异常检测机制保障数据质量。\n\n3. 数据处理与分析：使用Excel、PS、niI.gz、3d slicer等工具加工数据，进行初步统计、分类归档，为分析报告提供支持，部分岗位需设计数据提取、存储的系统化方案。\n\n4. 特定场景采集：人工智能领域可能涉及图片、语音、视频采集（如录制对话、动作视频用于模型训练），或按要求完成特定场景数据采集任务。\n\n5. 日常监控与维护：监控数据系统运行，筛查信息、维护数据平台，及时发现并上报问题。",
+      "source_url": "https://www.zhipin.com/job_detail/a2e27623b21fe4ce0nd83NW9FlVQ.html"
+    },
+    {
+      "company": "北京中科星图维天...",
+      "position": "专业数据工程师",
+      "tier": "mid",
+      "tech_direction": "数据",
+      "requirements": "1，维护专业数据。\n2，建设数据服务。",
+      "source_url": "https://www.zhipin.com/job_detail/af8494c81f28e1d91X142d26FFVU.html"
+    },
+    {
+      "company": "北京鸥啦科技有限公司",
+      "position": "AI数据工程师",
+      "tier": "startup",
+      "tech_direction": "数据",
+      "requirements": "岗位职责，\n1、基于LLM的数据智能应用研发（Agentic、Skills、Agent、RAG、NL2SQL、AI Coding等能力）\n2、构建面向数据开发与数据分析的智能助手，提升数据开发与分析效率\n3、结合⼤模型与数据⼯程能⼒，设计并落地AI驱动的数据产品/智能化解决方案\n4、推动数据能力向智能化升级，提升业务决策与数字化运营效率\n任职资格，\n1、统招全⽇制本科以上学历，理工类专业\n2、1年以上数据工程/AI工程研发经验\n3、理解机器学习与LLM基本原理，熟悉Prompt Engineering、RAG、Agent、NL2SQL或AI Coding等AI应用技术\n4、较强的数据敏感度与业务理解能力\n5、能将AI技术与数据工程结合，推动业务场景实际落地",
+      "source_url": "https://www.zhipin.com/job_detail/1a1ab180fc8efd3b0nB83tW1EVNU.html"
+    },
+    {
+      "company": "和讯网",
+      "position": "Python数据工程师（全栈）",
+      "tier": "mid",
+      "tech_direction": "数据",
+      "requirements": "岗位描述\n一、自动化标注与模型评测平台搭建\n1.设计并落地自动化标注与人机协同打标⽅案，结合模型能⼒优化标注策略，提升标注效率与⼀致性。\n2.搭建标注质量评估机制，通过算法校验与抽样审核，保障标注数据的准确性。\n3.推动标注策略的持续迭代，根据模型训练反馈动态优化标注规则，提升标注数据的业务适配性。\n二、数据合成与增强\n1.设计并实现面向⼤模型的文本数据合成方案，扩充训练数据的多样性与覆盖度。\n2.研发领域适配的数据增强技术，通过特定场景数据生成、多源数据融合等方式，提升模型在垂类场景下的表现。\n3.建立数据合成效果评估体系，验证合成数据对模型效果的增益，持续优化合成策略。\n三、数据清洗与质量管控\n1.构建文本数据清洗流水线，实现对脏数据的识别、去重、标准化处理。\n2.设计异常数据检测与修复机制，通过规则校验与算法识别，保障输入数据的高可用性。\n3.建立数据质量监控体系，对数据全链路质量进行跟踪与分析，输出质量报告并推动问题闭环。\n四、跨团队协作\n1.与算法团队深度协作，理解模型训练需求，输出匹配度高的高质量数据。\n2.与产品团队联动，将业务场景需求转化为数据加工方案，支撑大模型在业务场景的落地。\n岗位要求：\n1.计算机、大数据、统计学等相关专业本科及以上学历，3 年以上数据工程开发经验。\n2.精通 Python，熟悉主流数据处理库（如 Pandas等），具备扎实的工程实现能力。\n3.具备文本数据清洗、标注经验，能独立设计并落地数据加工解决方案。\n4.具备数据质量评估与管控经验，能通过技术手段保障数据高可用性。\n5.具备自动化标注系统的设计与落地经验，熟悉主流标注工具与平台的技术原理。\n6.理解大模型对数据的需求，能通过数据策略直接驱动模型效果提升。\n7.具备较强的问题定位与解决能力，能快速处理复杂数据场景中的质量问题。\n8.具备良好的跨团队沟通协作能力，能高效对齐技术方案与业务目标。",
+      "source_url": "https://www.zhipin.com/job_detail/079e506584200bb50nB629W4FVNR.html"
+    },
+    {
+      "company": "深圳若伴机器人",
+      "position": "具身智能数据工程师",
+      "tier": "startup",
+      "tech_direction": "数据",
+      "requirements": "【岗位职责】\n1. 遥操作数据体系建设：主导构建高保真遥操作数据采集体系，熟练使用多模态捕捉设备、VR设备或主从双臂遥操作平台，执行家庭场景下的精细操作任务，确保数据在视觉-动作对齐、时序连贯性等⽅⾯达到训练级质量标准。\n2. 数据质量管控与标准制定：制定数据⾤集规范与质量评估标准，建设自动化的数据清洗与筛选流水线（涵盖视频流、位姿数据、⼒觉信号的去噪与标注），设计数据质量评分机制，从海量原始数据中提炼高质量训练数据，构建标准化数据集。\n3. 复杂场景采集策略：针对接触丰富的复合任务（如软物体处理、刚体碰撞堆叠、精密插装等），设计并演示高质量的操作策略，覆盖多种异常场景与边界条件，为操控模型提供覆盖度充分的真机训练数据。\n4. 数据-算法闭环验证：将采集的数据注入模型训练流程，系统性验证数据质量、规模、多样性对算法性能（成功率、流畅度、泛化性）的影响；针对模型在真实场景的失效案例，建立数据补采与修复的标准化流程。\n5. 采集工具与平台开发：开发和维护数据采集工具链（可视化、回放、标注、统计分析），推动采集流程的自动化与半自动化，提升采集效率与数据一致性，降低人工成本。\n【任职要求】\n1. 本科及以上学历，计算机、机器人、自动化等相关专业，2年以上机器人数据采集、操控或相关领域的工作经验。\n2. 动手能力强，具备极佳的手眼协调能力，能熟练操作遥操作采集设备或主从遥控机器人，有双臂遥操作数据采集系统的实际使用经验。\n3. 熟悉ROS/ROS2通信机制，具备扎实的Python编程能力，能独立开发数据处理脚本与自动化工具，有数据流水线开发经验者优先。\n4. 理解机器人运动学基础，对力控、阻抗控制或视觉伺服有实际操作经验，具备基本的数据分析与可视化能力。\n5. 责任心强，工作细致严谨，能高效推动跨团队协作（与算法、硬件、产品团队对接），有数据团队管理或项目管理经验者优先。",
+      "source_url": "https://www.zhipin.com/job_detail/597604a4f6e4ef510nBz29m6GFZT.html"
+    },
+    {
+      "company": "爱才数科",
+      "position": "数据工程师（AI训练师）",
+      "tier": "mid",
+      "tech_direction": "数据",
+      "requirements": "此岗位要求AI行业出身，在职的不考虑，不符合的同学请勿扰谢谢\n此岗位为星动纪元机器人公司的外包岗，不接受外包的同学勿扰谢谢\n\n岗位要求：\n1、全日制本科及以上学历，计算机、软件⼯程、电⼦信息等相关专业优先。\n2、⾄少2年 人工智能相关领域的⼯作经验，熟悉模型训练/数据清洗/数据标注中的至少一项核心工作。\n3、具备扎实的Python编程能力，熟悉常用的数据处理库（如Pandas, NumPy）。\n4、了解机器学习/深度学习的基本概念和流程（如训练/验证/测试集划分、过拟合、损失函数等）。\n\n加分项：\n有接触或处理过机器人、自动驾驶、Embodied AI等相关领域数据（如图像序列、传感器数据、指令对）的经验。\n了解常用的数据标注工具（如LabelImg, VGG Image Annotator等）或版本管理工具（如Git, DVC）。\n工资区间：12k-16k\n工作、面试地址：威盛大厦",
+      "source_url": "https://www.zhipin.com/job_detail/7fc824a1303775b70nB73N6_E1dY.html"
+    },
+    {
+      "company": "北京云智材料大数...",
+      "position": "材料数据工程师",
+      "tier": "startup",
+      "tech_direction": "数据",
+      "requirements": "新材料大数据中心材料数据工程师实习生岗位招聘要求\r\n\r\n需求背景：\r\n2024年10月，工业和信息化部、财政部、国家数据局联合印发《新材料大数据中心总体建设方案》，部署启动我国新材料大数据中心建设。新材料大数据中心定位于促进新材料科技和产业创新发展的新型研发基础设施，立足机制创新，构建新材料数据资源中心；立足协同创新，构建加速新材料应用数据产品开发的研发中心；立足成果转化，提供材料数据基础产品和定制化服务，构建大中小企业融通发展、促进产业整体能力提升的服务中心。以“公益性、权威性、国际化、可持续”为宗旨，构筑“1+N”的架构体系（1个主平台、N 个数据资源节点），实现科技、产业等材料数据的融通和应用。主平台重点开展基础设施搭建、统一门户建设、标准规范制定、数据流通体系构建、数据技术和产品研发，面向全社会提供数据服务。主平台以边设计、边建设、边运行、边服务的模式加快推进建设工作，以公益服务为牵引，逐步实现稳定运行。目前，统一服务门户测试版（https://www.matbd.cn）已于2025年5月6日上线试运行，公开征求社会各界意见和建议。北京云智材料大数据研究院作为新材料大数据中心建设运营的专职化机构，在数据资源融通治理、软件产品研发、统一门户运维服务方面承担大量具体工作，现面向在校生开放实习岗位，助力国家材料数据资源体系和服务能力建设。\r\n\r\n岗位职责：\r\n1. 数据源对接与支持\r\n• 协助对接数据资源节点，配合完成融通器接入培训及使用指导；\r\n• 参与数据融通规范培训，定期统计反馈数据融通指标；\r\n• 协助数据资源节点完成门户页面及专区建设。\r\n2. 数据质量辅助管理\r\n• 学习多级数据审核机制，协助开展形式审查及合规性检查；\r\n• 使用数据校验工具，协助完成完整性、一致性等基础质量校验；\r\n• 整理数据质量分析报告，参与材料数据质量管理体系建设。\r\n3. 数据集研发支持\r\n• 基于中心数据资源，协助设计材料设计/性能预测类数据集产品；\r\n• 学习领域知识图谱构建方法，参与多源数据融合及语义增强实践；\r\n• 遵循FAIR原则协助完成数据集发布流程。\r\n4. 数据生态协同支持\r\n• 协助设计数据服务接口及应用场景方案；\r\n• 配合开展数据服务市场调研及生态合作模式探索。\r\n任职要求：\r\n1. 教育背景：材料科学、大数据、计算机或相关专业本科/硕士在校生（2026届及之后毕业）。\r\n2. 经验要求：\r\n• 有课程项目或实习涉及材料数据审核、质检者优先；\r\n• 参与过数据库/数据平台相关实践项目者优先；\r\n• 了解数据治理基础理论者优先。\r\n3. 技能要求：\r\n• 熟悉Excel基础操作，了解Python数据处理优先；\r\n• 了解材料数据基本概念及特征；\r\n• 具备基础的数据清洗、分析能力。\r\n4. 能力素质：\r\n• 良好的跨部门沟通能力，可协调各个层级和部门的多方需求；\r\n• 具备数据思维与业务洞察力，能够识别并协助解决数据治理过程中的挑战和难题；\r\n• 适应新材料行业特性，理解材料数据在全链条的应用价值。\r\n实习收获：\r\n• 深度参与新材料大数据中心建设实践；\r\n• 行业专家导师一对一指导；\r\n• 表现优异者可获得实习证明及转正机会；\r\n• 接触前沿材料数据治理技术体系。",
+      "source_url": "https://www.zhipin.com/job_detail/ce4d5526a7b05f4e03N839y7FFJW.html"
+    },
+    {
+      "company": "上海赛利胜",
+      "position": "主机厂 数据工程师 六险一金 15薪",
+      "tier": "mid",
+      "tech_direction": "数据",
+      "requirements": "1. 负责公司现有大数据工具栈、数据开发平台、调度工具、数据同步工具、可视化⼯具的⽇常运维、版本管理、服务监控；⽇常巡检工具服务状态、资源占用、任务运⾏情况，及时处理服务重启、节点异常、连接失败、任务阻塞等常规故障，保障数据工具7×24小时稳定可用。\n2. 跟进数据平台、内部工具、开源组件的日常问题反馈，针对业务、数据、算法团队使用过程中出现的功能缺陷、交互问题、逻辑BUG进行快速修复与迭代；整理问题台账，完成版本更新、补丁升级、线上发布与回归验证。\n3. 根据业务需求完成数据工具链的常规配置、参数调优、环境适配；负责平台账号、角色、数据权限、资源权限的日常审批与配置；配合团队完成新环境部署、节点扩容、环境迁移等常规运维工作。\n4. 承接各团队轻量化、通用型工具需求，完成简单功能开发、脚本开发、接口适配；支撑日常ETL调度、数据同步、数据导出、任务监控、日志查询等工程化支撑工作，保障数据业务高效落地。\n5. 更新维护工具链使用手册、操作流程、常见问题FAQ；对内开展工具使用指导、问题答疑，标准化团队工具使用规范，降低使用门槛、减少误操作问题。\n6. 负责对已标注数据进行整理、归档和版本管理，构建和维护场景库；定期总结标注经验，沉淀最佳实践、案例库和知识文档，为团队赋能。\n7. 开发多维度仿真模块，涵盖物理环境（路况 / 天气）、传感器（激光雷达 / 摄像头）、智能体（车辆 / 行人）建模与交互逻辑。\n8. 优化仿真平台实时性与精度，解决多模块协同延迟、物理引擎误差、传感器模拟保真度等核心问题。\n9. 对接算法、测试团队，定制仿真场景（如极端天气、复杂路口）与评估指标，推动平台与算法迭代、功能落地衔接\n任职要求：\n1、本科及以上学历，计算机科学、软件工程、数据科学、自动化、车辆工程等相关专业优先；\n2、具备3年及以上智能驾驶或人工智能领域数据标注、数据管理或相关项目经验。熟悉自动驾驶常见感知任务（如2D/3D检测、跟踪、车道线分割等）的数据标注规范与流程；\n3、精通至少一种主流数据标注工具（如Label Studio、CVAT等）的使用和管理；\n4、具备扎实的数据分析能力，能使用SQL、Python或相关工具进行基本的数据处理和质量分析，善于从数据中发现问题和规律；\n5、了解智能驾驶数据闭环的基本概念和技术流程，对影子模式、数据挖掘、自动标注等有认知者更佳；\n6、拥有出色的沟通协调能力和团队协作精神，能够有效管理团队、对接上下游并推动问题解决。同时，必须具备极强的逻辑思维能力、责任心和对细节的专注；\n7、拥有强烈的质量意识，能够建立并推行提升效率与质量的关键流程、规范和制度，并确保其有效落地。",
+      "source_url": "https://www.zhipin.com/job_detail/23d7b7f1e6510c280nF73966EFVR.html"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[project]
+name = "career-coach"
+version = "0.1.0"
+description = "AI-powered resume analysis and interview coaching platform"
+requires-python = ">=3.12"
+dependencies = [
+    "aiomysql>=0.2.0",
+    "bcrypt>=4.0.0",
+    "fastapi>=0.138.0",
+    "langchain>=1.2.0",
+    "langchain-community>=0.3.0",
+    "langchain-deepseek>=1.0.0",
+    "langgraph>=0.2.0",
+    "langchain-redis>=0.1.0",
+    "dashscope>=1.20.0",
+    "oss2>=2.18.0",
+    "tavily-python>=0.5.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "pypdf>=4.0.0",
+    "python-dotenv>=1.0.0",
+    "python-multipart>=0.0.9",
+    "sqlalchemy>=2.0.0",
+    "uvicorn>=0.40.0",
+]
+
+[tool.uv]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"

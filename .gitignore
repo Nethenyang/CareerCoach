@@ -1,0 +1,40 @@
+# Python venv (installed packages)
+careercoach/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Environment variables (API keys, secrets)
+.env
+.env.local
+.env.*.local
+
+# Claude settings
+.claude/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# uv init
+uv.lock
+/.workbuddy/
+/uploads/

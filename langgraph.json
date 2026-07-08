@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "graph": "ai.workflow.pipeline:compiled_graph"
+  },
+  "env": ".env"
+}
