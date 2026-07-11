@@ -38,3 +38,6 @@ logs/
 uv.lock
 /.workbuddy/
 /uploads/
+
+.doc
+.docx
